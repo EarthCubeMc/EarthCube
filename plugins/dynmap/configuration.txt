@@ -93,7 +93,7 @@ components:
   #  webchat-interval: 5
   #  hidewebchatip: false
   #  includehiddenplayers: false
-  #  use-name-colors: false
+    use-name-colors: true
   #  use-player-login-ip: false
   #  require-player-login-ip: false
   #  block-banned-player-chat: true
