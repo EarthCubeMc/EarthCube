@@ -833,7 +833,7 @@ f-points:
 # +------------------------------------------------------+ #
 ############################################################
 MissionGUISize: 4
-Missions-Enabled: true
+Missions-Enabled: false
 Missions-GUI-Title: '&8&lFaction Missions'
 MaximumMissionsAllowedAtOnce: 1
 Allow-Cancellation-Of-Missions: true
@@ -1483,7 +1483,7 @@ faudit-gui:
 # +------------------------------------------------------+ #
 ############################################################
 fbanners:
-  Enabled: true
+  Enabled: false
   Item:
     Name: '&c&l*&f&l*&c&l* &c&lWar Banner &7(Place) &c&l*&f&l*&c&l*'
     Lore:
