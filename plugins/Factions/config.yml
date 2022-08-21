@@ -192,15 +192,15 @@ scoreboard:
 # Warmup times are in seconds - if a value of 0 is set, there is no warmup.
 warmups:
   # Delay for /f home
-  f-home: 15
+  f-home: 5
   # Delay for /f warp
-  f-warp: 10
+  f-warp: 20
   # Delay for /f fly
-  f-fly: 0
+  f-fly: 20
   #Delay for /f checkpoint's teleport
-  f-checkpoint: 10
+  f-checkpoint: 20
   #Delay for /f tpbanner
-  f-banner: 10
+  f-banner: 20
 
 ######################################################
 #################### HCF Features ####################
@@ -671,7 +671,7 @@ See-Invisible-Faction-Members: false #ONLY WHEN SCOREBOARD IS ENABLED
 ############################################################
 #This option is the ability to see other faction members inventories
 f-inventory-see:
-  Enabled: true
+  Enabled: false
   see-armor-contents: true
 
 ############################################################

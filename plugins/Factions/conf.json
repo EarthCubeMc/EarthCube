@@ -134,7 +134,7 @@
   "peacefulTerritoryDisableBoom": false,
   "peacefulMembersDisablePowerLoss": true,
   "permanentFactionsDisableLeaderPromotion": false,
-  "claimsMustBeConnected": false,
+  "claimsMustBeConnected": true,
   "claimsCanBeUnconnectedIfOwnedByOtherFaction": true,
   "claimsRequireMinFactionMembers": 1,
   "claimedLandsMax": 0,
