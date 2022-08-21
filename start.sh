@@ -1,1 +1,1 @@
-java -jar versions/1.19.2/spigot-1.19.jar
+java -jar spigot-1.17.1.jar
