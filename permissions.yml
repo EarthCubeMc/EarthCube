@@ -1,0 +1,8 @@
+server.basics:
+       description: Basic permissions for My Cool Server.
+       default: true
+       children:
+          hat.use: true
+          BukkitWiki.cmd2: true
+          BukkitWiki.cmd4: true
+          BukkitWiki.cmd5: true

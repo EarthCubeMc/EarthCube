@@ -1,0 +1,4 @@
+# Determines how much items are worth on the server.
+# This can be set in this file, or by running the /setworth command.
+worth:
+  goldingot: 1.0

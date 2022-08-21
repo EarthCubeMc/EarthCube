@@ -1,0 +1,17 @@
+kits:
+  premium:
+    delay: 172800
+    items:
+    - iron_ingot 32
+    - gold_ingot 64
+    - cooked_porkchop 32
+    - diamond_pickaxe 1
+    - diamond_sword 1
+    - diamond_helmet 1
+    - diamond_chestplate 1
+    - diamond_leggings 1
+    - diamond_boots 1
+    - diamond 16
+    - lapis_lazuli 32
+    - emerald 5
+    - coal 64
