@@ -124,6 +124,7 @@ COMMAND:
     DESCRIPTION: claim a corner at world border
   CORNERLIST:
     DESCRIPTION: list of all corners
+    TITLE: '&7Listing corner claims in &2{world}'
   ADMIN:
     NOTMEMBER: '&c&l[!] &7%1$s &cis not a member in your faction.'
     NOTADMIN: '&c&l[!] &cYou are not the faction admin.'
@@ -271,6 +272,8 @@ COMMAND:
     INVALIDRADIUS: '&c&l[!]&7 If you specify a &cradius&7, it must be at least &c1&7.'
     DENIED: '&c&l[!]&7 You &cdo not &7have &cpermission&7 to &cclaim&7 in a radius.'
     DESCRIPTION: Claim land from where you are standing
+    RADIUSOVER: '&c&l[!] &7The specified radius is too large. &cRadius Claim Limit:
+      %s'
   CLAIMFILL:
     DESCRIPTION: Claim land filling in a gap in claims
     ABOVEMAX: '&cThe maximum limit for claim fill is %s.'
@@ -492,6 +495,7 @@ COMMAND:
     DESCRIPTION: Invite a player to your faction
     BANNED: '&c&l[!]&7 &7%1$s &cis banned &7from your Faction. &cNot &7sending an
       invite.'
+    BOT: '&c&l[!] Click Here To Invite The Discord Bot To Your Factions Discord'
   JOIN:
     CANNOTFORCE: '&c&l[!]&7 You&c do not&7 have permission to &cmove other players&7
       into a faction.'
@@ -717,6 +721,9 @@ COMMAND:
     SET: '&c&l[!]&7 Set permission&c %1$s &7to &c%2$s &7for relation&c %3$s'
     TOP: RCT MEM OFF ALLY TRUCE NEUT ENEMY
     LOCKED: '&cThis permission has been locked by the server'
+    EDIT:
+      ONLY:
+        MENU: '&c&l[!] &cYou mat not edit permissions via command!'
   POINTS:
     SHOW:
       DESCRIPTION: See the point balance of factions
@@ -814,6 +821,8 @@ COMMAND:
   RELOAD:
     TIME: '&c&l[!]&7 Reloaded &call &7configuration files from disk, took &c%1$d ms.'
     DESCRIPTION: Reload data file(s) from disk
+    NOTICE: '&c&l[!] NOTE: &fFiles That Require Stopping Server: conf.json, any file
+      in the configuration directory.'
   RESERVE:
     DESCRIPTION: Reserve any faction name for any player
     SUCCESS: '&a&l[!] &7You have reserved the faction &a%1$s &7for player &a%2$s'
@@ -1067,6 +1076,7 @@ COMMAND:
       SPAWNERS: '&c&l[!] &7You may not unclaim a spawnerchunk whilst there are still
         spawners in it! &eSpawner Count: %1$s'
     CLICKTOUNCLAIM: Click to unclaim &2(%1$d, %2$d)
+    WRONGFACTIONOTHER: '&cAttempted to unclaim land for incorrect faction'
   UNCLAIMALL:
     TOUNCLAIM: to unclaim all faction land
     FORUNCLAIM: for unclaiming all faction land
@@ -1089,6 +1099,10 @@ COMMAND:
       AMOUNT: '&c&l[!] &fYou have drained all of your faction members for &b%1$s.'
     INVALID:
       AMOUNT: '&c&l[!] &fYou cannot drain a faction with no worth.'
+    ROLE:
+      DRAINED:
+        AMOUNT: '&c&l[!] &fYou have drained members with %1$s Role for &b%2$s.'
+    COOLDOWN: '&c&l[!] &cYou may use /f drain again in &b{seconds} seconds&c!'
   WILD:
     DESCRIPTION: Teleport to a random location
     WAIT: '&c&l[!] &7Teleporting in %1$s'
@@ -1096,6 +1110,9 @@ COMMAND:
     INTERUPTED: '&c&l[!] &7Teleport cancelled!'
     FAILED: '&c&l[!] &7Could not find a location to teleport you to!'
     INPROGRESS: '&c&l[!] &7You are already teleporting somewhere!'
+    WORLD:
+      NOT:
+        ALLOWED: '&c&l[!] &7You may not use &e/f wild &7in this world!'
   RULES:
     DISABLED:
       MSG: '&cThis command is disabled!'
@@ -1117,6 +1134,24 @@ COMMAND:
       DESCRIPTION: Toggle global chat and only allow factions based chats
   MISSION:
     DESCRIPTION: Opens missions gui
+  CHUNKBUSTER:
+    USAGE: '&c&l[!] &7Try /chunkbuster give <player> <amount>'
+  AUTOUNCLAIM:
+    ENABLED: '&eNow auto-unclaiming land for &d%1$s&e.'
+    DISABLED: '&eAuto-unclaiming of land disabled.'
+    OTHERFACTION: '&cYou can''t unclaim land for &d%1$s&c.'
+    DESCRIPTION: Auto-unclaim land as you walk around
+  RALLY:
+    DESCRIPTION: Send a Rally Message/Waypoint To Faction Members
+  UNCLAIMFILL:
+    DESCRIPTION: Unclaim contiguous land
+    ABOVEMAX: '&cThe maximum limit for unclaim fill is %s.'
+    NOTCLAIMED: '&cCannot unclaim fill using non-claimed land!'
+    TOOFAR: '&cThis unclaim would exceed the maximum distance of %.2f'
+    PASTLIMIT: '&cThis unclaim would exceed the limit!'
+    TOOMUCHFAIL: '&cAborting unclaim fill after %d failures'
+    UNCLAIMED: '%1$s&e unclaimed %d claims of your faction''s land around %s.'
+    BYPASSCOMPLETE: '&eUnclaimed %d claims.'
 command:
   help:
     invitations: 'You might want to close it and use invitations:'
@@ -1380,6 +1415,7 @@ CLAIM:
   'NO':
     TERRITORY:
       PERM: You do not have permission from your faction leader to do this!
+  CANTUNCLAIM: '&cYou can''t unclaim land for &d%s&c.'
 GENERIC:
   YOU: you
   YOURFACTION: your faction
@@ -1587,3 +1623,30 @@ WARMUPS:
   CANCELLED: '&cYou have cancelled your warmup.'
 PLACEHOLDERAPI:
   'NULL': ''
+WORLD:
+  DISABLED:
+    COMMAND:
+      DENIED: '&cFactions is disabled in this world!'
+CHUNKBUSTER:
+  RECEIEVED: '&a&l[!] &7You have received a &cChunkbuster&7!'
+  ALREADY:
+    BEING:
+      BUSTED: '&c&l[!] &7This chunk is already being busted.'
+  USE:
+    MESSAGE: '&c&l[!] &7A ChunkBuster has been placed, you have &c10 seconds &7 to
+      leave this chunk!'
+GOD:
+  APPLE:
+    COOLDOWN: '&c&l[!] &cYou may eat another god apple again in &b{seconds} seconds&c!'
+ENDER:
+  PEARL:
+    COOLDOWN: '&c&l[!] &cYou may enderpearl again in &b{seconds} seconds&c!'
+VEHICLE:
+  TELEPORT:
+    BLOCK: '&c&l[!] You cannot teleport while you are inside a vehicle'
+FACTION:
+  RALLY:
+    MESSAGE: '&e&l[!] &7%1$s''s coords are &e%2$s, %3$s, %4$s'
+INVALID:
+  PLAYER: '&c&l[!] &b{player} &7is not online!'
+  WORLD: '&c&l[!] &b{world} &7is not a world!'

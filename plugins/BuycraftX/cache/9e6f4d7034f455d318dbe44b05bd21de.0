@@ -3,22 +3,21 @@ GET
 1
 Accept-Encoding: gzip
 HTTP/1.1 200 
-15
-date: Sat, 20 Aug 2022 17:59:43 GMT
+14
+date: Sun, 21 Aug 2022 16:50:37 GMT
 content-type: application/json
-retry-after: 31
-cf-ray: 73dd06411d39d6ba-CDG
+cf-ray: 73e4de65cf1bd26b-CDG
 cache-control: no-cache, private
 etag: W/"5b4906eed48a5cb69b79c846a8a158f7bee9047e"
 strict-transport-security: max-age=31536000;
 cf-cache-status: DYNAMIC
 expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-tb-node: i-02d853e551730765d d-VVAXPVKCJ
+tb-node: i-0966f25df4fe7e49f d-VVAXPVKCJ
 vary: Accept-Encoding
 server: cloudflare
 content-encoding: gzip
-OkHttp-Sent-Millis: 1661018383526
-OkHttp-Received-Millis: 1661018383705
+OkHttp-Sent-Millis: 1661100637083
+OkHttp-Received-Millis: 1661100637298
 
 TLS_AES_256_GCM_SHA384
 2

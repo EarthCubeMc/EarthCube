@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 77.140.83.103
+ip-address: ''
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,14 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1661020297398
-  login: 1661020120486
-money: '0.0'
-last-account-name: eureur7
-lastlocation:
-  world: 40956b00-137c-4523-a8ef-d9822ff6db0f
-  world-name: World
-  x: 13.443842466504327
-  y: 72.98231700850683
-  z: -80.4477980721243
-  yaw: -67.0491714477539
-  pitch: 20.10002899169922
+  logout: 1661098288049
+  login: 0
+money: '0'
 logoutlocation:
   world: 40956b00-137c-4523-a8ef-d9822ff6db0f
   world-name: World
-  x: 75.12836346618818
-  y: 76.86870408167215
-  z: 41.04763398641794
-  yaw: -76.80399322509766
-  pitch: 38.250144958496094
+  x: -380.78087615523174
+  y: 63.0
+  z: -482.30511059804263
+  yaw: 84.35200500488281
+  pitch: 39.14910125732422
