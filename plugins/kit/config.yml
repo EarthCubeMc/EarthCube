@@ -1,0 +1,23 @@
+config:
+  test: "&4cc les coco"
+coords:
+  bleu: 
+    x: 
+    y: 
+    z: 
+  vert: 
+    x: 
+    y: 
+    z: 
+  rouge: 
+    x: 
+    y: 
+    z: 
+  spawn: 
+    x: 
+    y: 
+    z: 
+  event: 
+    x: 
+    y: 
+    z: 

@@ -1,7 +1,6 @@
 {"sets": {"factions_markerset": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Factions","markers": {"factions_home_2": {"markup": false,"x": 542.76,"icon": "greenflag","y": 63.00,"dim": "16x16","z": -93.67,"label": "4lWarZon","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">4lWarZon<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">C moi le plus fort !<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> PetitMulot<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 301.84<br \/>\n<br \/>\n<\/div><\/div>"}
-,"factions_home_1": {"markup": false,"x": 717.70,"icon": "greenflag","y": 64.00,"dim": "16x16","z": -221.95,"label": "test","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">test<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> eureur7<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 63001235.70<br \/>\n<br \/>\n<\/div><\/div>"}
 }
 ,"lines": {}
 ,"layerprio": 2}
@@ -16,4 +15,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1661166904311}
+,"timestamp": 1661177039806}
