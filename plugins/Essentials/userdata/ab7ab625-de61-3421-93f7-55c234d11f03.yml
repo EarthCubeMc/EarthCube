@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: ''
+ip-address: 192.168.0.17
 afk: false
 socialspy: false
 npc: false
@@ -16,14 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1661097977379
-  login: 0
-money: '0'
+  logout: 1661105939253
+  login: 1661105053924
+money: '76.0'
 logoutlocation:
   world: 40956b00-137c-4523-a8ef-d9822ff6db0f
   world-name: World
-  x: 749.3000000119209
-  y: 62.0
-  z: -196.30000001192093
-  yaw: -67.44970703125
-  pitch: 17.97437286376953
+  x: 439.8106426871124
+  y: 68.0
+  z: -172.96653588458142
+  yaw: -62.82977294921875
+  pitch: 35.19603729248047
+last-account-name: PetitMulot
