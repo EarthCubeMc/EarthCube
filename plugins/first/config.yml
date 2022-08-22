@@ -6,7 +6,10 @@ coords:
     y: 67
     z: -48
   vert: {}
-  rouge: {}
+  rouge:
+    x: 121
+    y: 67
+    z: -48
   spawn:
     x: 111
     y: 252
