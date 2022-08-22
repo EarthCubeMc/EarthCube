@@ -269,9 +269,9 @@
   "econCostClaimWilderness": 16.0,
   "econCostClaimFromFactionBonus": 0.0,
   "econOverclaimRewardMultiplier": 0.5,
-  "econClaimAdditionalMultiplier": 0.5,
+  "econClaimAdditionalMultiplier": 0.05,
   "econClaimRefundMultiplier": 0.7,
-  "econClaimUnconnectedFee": 0.0,
+  "econClaimUnconnectedFee": 1.0,
   "econCostCreate": 64.0,
   "econCostOwner": 15.0,
   "econCostSethome": 32.0,
@@ -334,7 +334,11 @@
   "bankFactionPaysLandCosts": true,
   "playersWhoBypassAllProtection": [],
   "useWorldConfigurationsAsWhitelist": false,
-  "worldsNoClaiming": [],
+  "worldsNoClaiming": [
+    "World_nether",
+    "World_the_end",
+    "hub"
+  ],
   "worldsNoFactionsPlugin": [
     "someworldnamehere"
   ],

@@ -1324,10 +1324,11 @@ SPAWNER:
     UNCLAIMED: '&aYou have unclaimed a spawnerchunk!'
     PLACE:
       DENIED:
-        WILDERNESS: '&c&l[!] &7You may not place spawners in wilderness!'
+        WILDERNESS: '&c&l[!] &7You may not place spawners in wilderness! (to create
+          spawner chunk execute in wilderness: /f spawnerchunk)'
         NOT:
           SPAWNERCHUNK: '&c&l[!] &7You may not place spawners in this chunk. Only
-            Spawner Chunks!'
+            Spawner Chunks! (to create spawner chunk execute in wilderness: /f spawnerchunk)'
 BANKNOTE:
   WITHDRAW:
     NOT:
