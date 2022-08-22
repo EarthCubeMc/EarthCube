@@ -29,7 +29,7 @@ multiverse-configuration:
   silentstart: 'false'
   messagecooldown: '5000'
   version: '2.9'
-  firstspawnworld: hub
+  firstspawnworld: World
   teleportcooldown: '100000'
   defaultportalsearch: 'true'
   portalsearchradius: '128'
