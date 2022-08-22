@@ -1,0 +1,16 @@
+kaval:
+  Leader: ab7ab625-de61-3421-93f7-55c234d11f03|PetitMulot
+  Locked: true
+  Level: 0
+  Xp: 0
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - ab7ab625-de61-3421-93f7-55c234d11f03|PetitMulot
