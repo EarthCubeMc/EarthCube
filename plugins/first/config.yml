@@ -1,17 +1,29 @@
 config:
-  test: '&4cc les coco'
+  test: "&4cc les coco"
+  aide:
+    map:
+    discord: 
+    site:
+    boutique:
+    regles:
 coords:
-  bleu:
-    x: 120
-    y: 67
-    z: -45
-  vert: {}
-  rouge:
-    x: 121
-    y: 67
-    z: -48
-  spawn:
-    x: 111
-    y: 252
-    z: -32
-  event: {}
+  bleu: 
+    x: 
+    y: 
+    z: 
+  vert: 
+    x: 
+    y: 
+    z: 
+  rouge: 
+    x: 
+    y: 
+    z: 
+  spawn: 
+    x: 
+    y: 
+    z: 
+  event: 
+    x: 
+    y: 
+    z: 
