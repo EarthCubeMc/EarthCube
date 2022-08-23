@@ -26,7 +26,7 @@
 
 # If true, players can change skins without permission.
 # see https://github.com/SkinsRestorer/SkinsRestorerX/wiki/cmds-&-perms for perms.
-SkinWithoutPerm: true
+SkinWithoutPerm: false
 
 # Players cooldown in seconds when changing skins (set to 0 to disable).
 # SkinErrorCooldown is used when an error or invalid url occurs.
@@ -53,7 +53,7 @@ DisablePrefix: false
 # [?] Supports custom & url.png skins, read SkinFile Generator below. [?]
 # [!] url.png won't work on join for bungee, see https://github.com/SkinsRestorer/SkinsRestorerX/issues/315 [!]
 DefaultSkins:
-  Enabled: false
+  Enabled: true
   ApplyForPremium: false
   Names:
     - "xknat"
@@ -125,7 +125,7 @@ MySQL:
 NoSkinIfLoginCanceled: true
 
 # This will make SkinsRestorer always apply the skin even if the player joins as premium on an online mode server.
-AlwaysApplyPremium: false
+AlwaysApplyPremium: true
 
 # When enabled, only websites from the list below is allowed to be set using /skin url <url>
 # [?] this is useful if you host your own image server.
