@@ -26,7 +26,7 @@ obfuscation:
     minY: -2032
     maxY: 2031
     worlds:
-    - world
+    - World
     hiddenBlocks:
     - minecraft:emerald_ore
     - minecraft:deepslate_emerald_ore
@@ -88,7 +88,7 @@ obfuscation:
     minY: -2032
     maxY: 2031
     worlds:
-    - world_nether
+    - World_nether
     hiddenBlocks:
     - minecraft:netherrack
     - minecraft:nether_quartz_ore
@@ -128,7 +128,7 @@ obfuscation:
     minY: -2032
     maxY: 2031
     worlds:
-    - world_the_end
+    - World_the_end
     hiddenBlocks:
     - minecraft:spawner
     - minecraft:chest
