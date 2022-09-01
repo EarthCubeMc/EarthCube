@@ -97,9 +97,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2022-09-01 19:40:57 +0200",
       "minecraft:taiga": "2022-09-01 19:06:18 +0200",
+      "minecraft:sunflower_plains": "2022-09-01 19:41:15 +0200",
       "minecraft:badlands": "2022-09-01 19:05:37 +0200",
       "minecraft:beach": "2022-09-01 19:27:34 +0200",
+      "minecraft:dark_forest": "2022-09-01 19:37:52 +0200",
       "minecraft:lukewarm_ocean": "2022-09-01 19:10:43 +0200",
       "minecraft:river": "2022-09-01 19:04:40 +0200",
       "minecraft:snowy_plains": "2022-09-01 19:06:21 +0200",
@@ -109,6 +112,7 @@
       "minecraft:frozen_ocean": "2022-09-01 19:10:59 +0200",
       "minecraft:desert": "2022-09-01 19:04:27 +0200",
       "minecraft:ocean": "2022-09-01 19:05:32 +0200",
+      "minecraft:jungle": "2022-09-01 19:38:09 +0200",
       "minecraft:snowy_beach": "2022-09-01 19:11:33 +0200",
       "minecraft:warm_ocean": "2022-09-01 19:15:05 +0200",
       "minecraft:flower_forest": "2022-09-01 19:06:17 +0200",
