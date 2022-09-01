@@ -10,7 +10,7 @@
     <string>S01W090</string>
     <string>S01W180</string>
   </TilesList>
-  <SpawnTile>N89W180</SpawnTile>
+  <SpawnTile>N89E000</SpawnTile>
   <VoidBarrier>0</VoidBarrier>
   <VoidTiles>0</VoidTiles>
 </Selection>
