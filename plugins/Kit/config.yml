@@ -1,0 +1,36 @@
+config:
+  date: 1
+  aide:
+    rank: '&4/kit'
+    shop: '&4shop link isn''t set /kit setshoplink'
+  dates:
+    daily:
+      vip:
+        eureur7: 25
+      vipP:
+        eureur7: 25
+      youtube:
+        eureur7: 25
+      beginner:
+        eureur7: 25
+    weekly:
+      vip:
+        eureur7: 2
+      vipP:
+        eureur7: 2
+      youtube:
+        eureur7: 2
+      beginner:
+        eureur7: 2
+      vipW:
+        eureur7: 14
+      vipPW:
+        eureur7: 14
+      youtubeW:
+        eureur7: 14
+      beginnerW:
+        eureur7: 14
+    wekkly:
+      vipW:
+        eureur7: 2
+  dateBis: 12

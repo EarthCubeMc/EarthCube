@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
 ip-address: 192.168.0.13
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1661247687892
+  lastteleport: 1661419676955
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1661249867171
-  login: 1661250004193
+  logout: 1661446350133
+  login: 1661446319768
 money: '0'
 logoutlocation:
   world: 40956b00-137c-4523-a8ef-d9822ff6db0f
   world-name: World
-  x: 112.0
-  y: 248.0
-  z: -32.0
-  yaw: -18.149980545043945
-  pitch: 65.29998779296875
+  x: 132.06165335440792
+  y: 83.80275013350844
+  z: 102.10986216733126
+  yaw: 115.78886413574219
+  pitch: 16.649084091186523
 last-account-name: eureur7
 lastlocation:
   world: 40956b00-137c-4523-a8ef-d9822ff6db0f
   world-name: World
-  x: 701.8546533872637
-  y: 10.200000047683716
-  z: 233.83568911796192
-  yaw: 142.34405517578125
-  pitch: -10.500337600708008
+  x: 1016.5
+  y: 43.200000047683716
+  z: 505.5
+  yaw: 103.80451965332031
+  pitch: -90.0

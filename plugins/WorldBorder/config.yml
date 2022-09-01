@@ -4,7 +4,7 @@ round-border: false
 debug-mode: false
 whoosh-effect: false
 portal-redirection: true
-knock-back-dist: 0.0
+knock-back-dist: 1.0
 timer-delay-ticks: 20
 remount-delay-ticks: 0
 dynmap-border-enabled: true
@@ -25,8 +25,8 @@ worlds:
     wrapping: false
     shape-round: false
   World:
-    x: -0.5
-    z: -0.5
-    radiusX: 1024
-    radiusZ: 512
+    x: 0.0
+    z: 0.0
+    radiusX: 1018
+    radiusZ: 506
     wrapping: true

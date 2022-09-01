@@ -269,7 +269,7 @@
   "econCostClaimWilderness": 16.0,
   "econCostClaimFromFactionBonus": 0.0,
   "econOverclaimRewardMultiplier": 0.5,
-  "econClaimAdditionalMultiplier": 0.05,
+  "econClaimAdditionalMultiplier": 0.0625,
   "econClaimRefundMultiplier": 0.7,
   "econClaimUnconnectedFee": 1.0,
   "econCostCreate": 64.0,

@@ -1,29 +1,17 @@
 config:
-  test: "&4cc les coco"
+  test: '&4cc les coco'
   aide:
-    map: "&4map link isn't set /setmaplink"
-    discord: "&4discord link isn't set /setdiscordlink"
-    site: "&4site link isn't set /setsitelink"
-    shop: "&4shop link isn't set /setshoplink"
-    rules: "&4rules link isn't set /setruleslink"
+    map: test1
+    discord: '&4discord link isn''t set /setdiscordlink'
+    site: '&4site link isn''t set /setsitelink'
+    shop: '&4shop link isn''t set /setshoplink'
+    rules: '&4rules link isn''t set /setruleslink'
 coords:
-  bleu: 
-    x: 
-    y: 
-    z: 
-  vert: 
-    x: 
-    y: 
-    z: 
-  rouge: 
-    x: 
-    y: 
-    z: 
-  spawn: 
-    x: 
-    y: 
-    z: 
-  event: 
-    x: 
-    y: 
-    z: 
+  bleu: {}
+  vert: {}
+  rouge: {}
+  spawn:
+    x: -934
+    y: 63
+    z: -488
+  event: {}

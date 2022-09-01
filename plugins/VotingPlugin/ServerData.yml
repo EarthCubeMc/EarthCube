@@ -1,0 +1,20 @@
+LastUpdated: 1662015536289
+IntColumns:
+- VotePartyVotes
+- MilestoneCount
+- MonthTotal
+- AllTimeTotal
+- DailyTotal
+- WeeklyTotal
+- Points
+- DayVoteStreak
+- BestDayVoteStreak
+- WeekVoteStreak
+- BestWeekVoteStreak
+- MonthVoteStreak
+- HighestDailyTotal
+- HighestMonthlyTotal
+- HighestWeeklyTotal
+- LastMonthTotal
+- BestMonthVoteStreak
+VotingPlugin: {}
