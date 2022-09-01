@@ -19,7 +19,7 @@
 # the player just disconnect and sees the message: 'bad login' or 'invalid session'
 # There is no way to change this message
 # For more information: https://github.com/games647/FastLogin#why-do-players-have-to-invoke-a-command
-autoRegister: false
+autoRegister: true
 
 # This is extra configuration option to the feature above. If we request a premium authentication from a player who
 # isn't actual premium but used a premium username, the player will disconnect with the reason "invalid session" or
@@ -27,7 +27,7 @@ autoRegister: false
 #
 # If you activate this, we are remembering this player and do not force another premium authentication if the player
 # tries to join again, so the player could join as cracked player.
-secondAttemptCracked: false
+secondAttemptCracked: true
 
 # New cracked players will be kicked from server. Good if you want switch from offline-mode to online-mode without
 # losing players!
@@ -53,7 +53,7 @@ switchMode: false
 # authentication.
 #
 # This feature requires Cauldron, Spigot or a fork of Spigot (Paper)
-premiumUuid: false
+premiumUuid: true
 
 # This will make an additional check (only for player names which are not in the database) against the mojang servers
 # in order to get the premium UUID. If that premium UUID is in the database, we can assume on successful login that the
