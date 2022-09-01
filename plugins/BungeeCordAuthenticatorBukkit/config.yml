@@ -1,0 +1,27 @@
+debug: false
+protection:
+  allowmessagereceive: false
+  allowmessagesend: false
+  allowedcommands:
+  - command1
+  - command2
+  allowmovement: false
+teleportation:
+  unauthed:
+    enable: false
+    location:
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0
+  authed:
+    enable: false
+    location:
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0

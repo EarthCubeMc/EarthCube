@@ -1,4 +1,4 @@
-LastUpdated: 1662015536289
+LastUpdated: 1662047120497
 IntColumns:
 - VotePartyVotes
 - MilestoneCount
@@ -17,4 +17,10 @@ IntColumns:
 - HighestWeeklyTotal
 - LastMonthTotal
 - BestMonthVoteStreak
-VotingPlugin: {}
+VotingPlugin:
+  Version: '3284a-Spigot-3892929-0ab8487 (MC: 1.17.1)'
+PluginVersions:
+  VotingPlugin: 6.9.4
+Month: SEPTEMBER
+PrevWeek: 36
+PrevDay: 1

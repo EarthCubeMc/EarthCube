@@ -7,12 +7,16 @@ config:
     daily:
       vip:
         eureur7: 25
+        Hydrolien: 1
       vipP:
         eureur7: 25
+        Hydrolien: 1
       youtube:
         eureur7: 25
+        Hydrolien: 1
       beginner:
         eureur7: 25
+        Hydrolien: 1
     weekly:
       vip:
         eureur7: 2
@@ -24,12 +28,16 @@ config:
         eureur7: 2
       vipW:
         eureur7: 14
+        Hydrolien: 10
       vipPW:
         eureur7: 14
+        Hydrolien: 10
       youtubeW:
         eureur7: 14
+        Hydrolien: 10
       beginnerW:
         eureur7: 14
+        Hydrolien: 10
     wekkly:
       vipW:
         eureur7: 2
