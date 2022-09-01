@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.17
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1662053321296
+  login: 1662053181115
+money: '0'
+last-account-name: Hydrolien
+logoutlocation:
+  world: 44d0f72b-db6a-4657-8209-60a86e480616
+  world-name: World
+  x: 593.4931265262923
+  y: 84.4821566694248
+  z: -110.35819413728976
+  yaw: -134.54376220703125
+  pitch: 48.5652961730957
