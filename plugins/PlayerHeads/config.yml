@@ -75,7 +75,7 @@
 #                                               If pkonly is disabled, a player dying repeatedly to any mob is also nerfed similarly under this option.
 
 pkonly: true
-droprate: 0.5
+droprate: 1
 lootingrate: 0.2
 mobpkonly: true
 fixcase: false
@@ -86,7 +86,7 @@ antideathchest: false
 dropboringplayerheads: false
 dropvanillaheads: true
 convertvanillaheads: false
-nerfdeathspam: true
+nerfdeathspam: false
 
 creeperdroprate: 0.005
 zombiedroprate: 0.002
