@@ -69,29 +69,29 @@
 # dropboringplayerheads: false  [true/false]    Drop plain heads when a player dies, instead of the player's head
 # dropvanillaheads: true        [true/false]    Drop vanilla mob heads whenever possible on death and on breaking head (for creeper/skeleton/zombie/witherskeleton/dragon)  (version 4.1+)
 #                                               If this is false, any modified drops and breaking of skulls will use skinned player head versions only.
-# convertvanillaheads: false    [true/false]    When false, avoid converting the type head of when its block is broken. 
+# convertvanillaheads: false    [true/false]    When false, avoid converting the type head of when its block is broken.
 #                                               When true (or pre-4.2), the head is automatically converted to vanilla or skinned depending on the state of `dropvanillaheads` setting. (version 4.2+)
 # nerfdeathspam: false          [true/false]    Don't drop a head when a player has died recently to the same killer (within 5 minutes and 5 player deaths). This alleviates some ability to farm heads. (version 4.3+)
 #                                               If pkonly is disabled, a player dying repeatedly to any mob is also nerfed similarly under this option.
 
 pkonly: true
-droprate: 0.05
+droprate: 0.5
 lootingrate: 0.2
 mobpkonly: true
 fixcase: false
 updatecheck: true
 broadcast: true
-broadcastrange: 0
+broadcastrange: 500
 antideathchest: false
 dropboringplayerheads: false
 dropvanillaheads: true
 convertvanillaheads: false
-nerfdeathspam: false
+nerfdeathspam: true
 
 creeperdroprate: 0.005
 zombiedroprate: 0.002
 skeletondroprate: 0.002
-witherskeletondroprate: 0.025
+witherskeletondroprate: 0.0
 spiderdroprate: 0.002
 endermandroprate: 0.002
 blazedroprate: 0.002
@@ -127,7 +127,7 @@ endermitedroprate: 0.005
 evokerdroprate: 0.005
 illusionerdroprate: 0.005
 vindicatordroprate: 0.005
-witherdroprate: 0.005
+witherdroprate: 0.0
 vexdroprate: 0.004
 llamadroprate: 0.008
 parrotdroprate: 0.008
@@ -146,4 +146,3 @@ pufferfishdroprate: 0.002
 tropicalfishdroprate: 0.002
 drowneddroprate: 0.002
 dolphindroprate: 0.002
-
