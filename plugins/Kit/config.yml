@@ -1,5 +1,5 @@
 config:
-  date: 1
+  date: 2
   aide:
     rank: '&4/kit'
     shop: '&4shop link isn''t set /kit setshoplink'
@@ -7,16 +7,20 @@ config:
     daily:
       vip:
         eureur7: 25
-        Hydrolien: 1
+        Hydrolien: 2
+        PetitMulot: 2
       vipP:
         eureur7: 25
-        Hydrolien: 1
+        Hydrolien: 2
+        PetitMulot: 2
       youtube:
         eureur7: 25
-        Hydrolien: 1
+        Hydrolien: 2
+        PetitMulot: 2
       beginner:
         eureur7: 25
-        Hydrolien: 1
+        Hydrolien: 2
+        PetitMulot: 2
     weekly:
       vip:
         eureur7: 2
@@ -28,16 +32,20 @@ config:
         eureur7: 2
       vipW:
         eureur7: 14
-        Hydrolien: 10
+        Hydrolien: 14
+        PetitMulot: 11
       vipPW:
         eureur7: 14
-        Hydrolien: 10
+        Hydrolien: 14
+        PetitMulot: 11
       youtubeW:
         eureur7: 14
-        Hydrolien: 10
+        Hydrolien: 14
+        PetitMulot: 11
       beginnerW:
         eureur7: 14
-        Hydrolien: 10
+        Hydrolien: 14
+        PetitMulot: 11
     wekkly:
       vipW:
         eureur7: 2
