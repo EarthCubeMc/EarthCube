@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 192.168.0.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1662195720051
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1662207110655
+  login: 1662207146465
+money: '0'
+last-account-name: eureur7
+lastlocation:
+  world: 44d0f72b-db6a-4657-8209-60a86e480616
+  world-name: World
+  x: -941.8076020147194
+  y: 56.10030974546557
+  z: -480.1569974073681
+  yaw: 90.44921875
+  pitch: -36.44987487792969
+logoutlocation:
+  world: 44d0f72b-db6a-4657-8209-60a86e480616
+  world-name: World
+  x: -893.4813603290013
+  y: 65.83221753288993
+  z: -461.69065291194585
+  yaw: -104.55076599121094
+  pitch: 13.350051879882812

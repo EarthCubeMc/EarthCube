@@ -11,24 +11,16 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1662195605376
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1662102993539
-  login: 1662102640524
-money: '0'
+  logout: 1662201683078
+  login: 1662201691467
+money: '576.0'
 last-account-name: PetitMulot
 logoutlocation:
-  world: 44d0f72b-db6a-4657-8209-60a86e480616
-  world-name: World
-  x: -299.80249241191655
-  y: 66.0
-  z: 93.48487729032372
-  yaw: -124.54354858398438
-  pitch: 21.536239624023438
-lastlocation:
   world: 44d0f72b-db6a-4657-8209-60a86e480616
   world-name: World
   x: -932.3993246017136
@@ -36,3 +28,11 @@ lastlocation:
   z: -488.30000001192093
   yaw: 138.2987060546875
   pitch: 59.850120544433594
+lastlocation:
+  world: 44d0f72b-db6a-4657-8209-60a86e480616
+  world-name: World
+  x: 117.55568572921665
+  y: 66.0
+  z: -40.41181404300241
+  yaw: -146.2176513671875
+  pitch: 8.694849014282227
