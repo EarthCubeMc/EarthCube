@@ -102,7 +102,7 @@ Experience_Formula:
     Cumulative_Curve: false
     Multiplier:
         Global: 1.0
-        PVP: 1.0
+        PVP: 0
     Eggs:
         Multiplier: 0
     Mobspawners:
@@ -449,7 +449,7 @@ Experience_Values:
         Coal_Ore: 10
         Diamond_Ore: 75
         Emerald_Ore: 100
-        Gold_Ore: 35
+        Gold_Ore: 65
         Raw_Gold: 35
         Iron_Ore: 25
         Raw_Iron: 25

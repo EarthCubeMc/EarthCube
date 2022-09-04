@@ -75,7 +75,7 @@
 #                                               If pkonly is disabled, a player dying repeatedly to any mob is also nerfed similarly under this option.
 
 pkonly: true
-droprate: 1
+droprate: 0.1
 lootingrate: 0.2
 mobpkonly: true
 fixcase: false

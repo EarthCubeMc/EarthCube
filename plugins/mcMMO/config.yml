@@ -177,11 +177,11 @@ Party:
         Xp_Curve_Modifier: 3
         Near_Members_Needed: false
         Inform_All_Party_Members_On_LevelUp: false
-        Chat_UnlockLevel: 1
-        Teleport_UnlockLevel: 2
-        Alliance_UnlockLevel: 5
-        ItemShare_UnlockLevel: 8
-        XpShare_UnlockLevel: 10
+        Chat_UnlockLevel: 0
+        Teleport_UnlockLevel: 11
+        Alliance_UnlockLevel: 0
+        ItemShare_UnlockLevel: 0
+        XpShare_UnlockLevel: 0
 Abilities:
     Enabled: true
     Messages: true
