@@ -1,0 +1,52 @@
+config:
+  date: 3
+  aide:
+    rank: '&4/kit'
+    shop: '&4shop link isn''t set /kit setshoplink'
+  kit:
+    save:
+      test:
+        len: 27
+        item:
+          '0':
+            item: STONE
+            name: stone0
+            lore: lorestone0
+            size: 64
+          '1':
+            item: COMPASS
+            name: §4compass
+            lore: §bloreXD
+            size: 3
+          '3':
+            item: EGG
+            name: §4oeuf_§bbleu
+            lore: desc_tesry_yddf
+            size: 2
+  dates:
+    daily:
+      vip:
+        eureur7: 2
+        PetitMulot: 0
+      vipP:
+        eureur7: 2
+        PetitMulot: 0
+      youtube:
+        eureur7: 2
+        PetitMulot: 0
+      beginner:
+        eureur7: 2
+        PetitMulot: 0
+    weekly:
+      vipW:
+        eureur7: 0
+        PetitMulot: -7
+      vipPW:
+        eureur7: -7
+        PetitMulot: -7
+      youtubeW:
+        eureur7: -7
+        PetitMulot: -7
+      beginnerW:
+        eureur7: -7
+        PetitMulot: -7

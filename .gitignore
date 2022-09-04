@@ -1,4 +1,3 @@
 # ignore temp data files
-logs/
 plugins/dynmap/web/
 plugins/mcMMO/backup/

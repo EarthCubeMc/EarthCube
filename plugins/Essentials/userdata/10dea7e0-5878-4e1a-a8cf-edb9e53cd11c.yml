@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1662207110655
-  login: 1662207146465
+  logout: 1662221134386
+  login: 1662220915296
 money: '0'
 last-account-name: eureur7
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 44d0f72b-db6a-4657-8209-60a86e480616
   world-name: World
-  x: -893.4813603290013
-  y: 65.83221753288993
-  z: -461.69065291194585
-  yaw: -104.55076599121094
-  pitch: 13.350051879882812
+  x: 139.41907703705178
+  y: 73.37370615059817
+  z: 186.6664218939303
+  yaw: 6.90380859375
+  pitch: 36.89969253540039

@@ -1,0 +1,131 @@
+[11:48:34] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update, and has readied it to be loaded the next time the server restarts/reloads.[m
+[11:48:34] [Webhook-RateLimit Thread WebhookID: 1007030635346538670/ERROR]: There was some error while sending a webhook message
+java.net.UnknownHostException: discord.com: Dumtempa malsukceso ĉe nom-eltrovo
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[?:?]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529) ~[?:?]
+	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at net.essentialsx.dep.okhttp3.Dns.lambda$static$0(Dns.java:39) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:171) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:135) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:187) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at net.essentialsx.dep.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[?:?]
+	at net.essentialsx.dep.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[?:?]
+	at net.essentialsx.dep.okhttp3.RealCall.execute(RealCall.java:81) ~[?:?]
+	at net.essentialsx.dep.club.minnced.discord.webhook.WebhookClient.executePair(WebhookClient.java:793) ~[?:?]
+	at net.essentialsx.dep.club.minnced.discord.webhook.WebhookClient.drainQueue(WebhookClient.java:769) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[11:48:34] [Webhook-RateLimit Thread WebhookID: 1007030635346538670/ERROR]: An error occurred while sending messages to your console channel! This was likely caused by accidentally deleting your console webhook. This can usually by fixed by ensuring your bot has the "Manage Webhooks" permission and running "/ess reload".
+[11:48:37] [Timer-6/INFO]: [VotingPlugin] Detected week changed, processing...
+[11:48:37] [Timer-6/INFO]: [VotingPlugin] Time change event: WEEK, Fake: false
+[11:48:37] [Timer-6/INFO]: [VotingPlugin] Finished processing day change, took 0 seconds
+[11:48:37] [Timer-6/INFO]: [VotingPlugin] Finished processing week changes
+[11:48:51] [JDA MainWS-ReadThread/WARN]: Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[11:48:53] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[11:48:54] [JDA MainWS-ReadThread/INFO]: Finished (Re)Loading!
+[11:49:37] [Timer-6/INFO]: [VotingPlugin] Detected day changed, processing...
+[11:49:37] [Timer-6/INFO]: [VotingPlugin] Time change event: DAY, Fake: false
+[11:49:37] [Timer-6/INFO]: [VotingPlugin] Finished processing day change, took 0 seconds
+[11:49:37] [Timer-6/INFO]: [VotingPlugin] Created zip file at /home/hydrolien/git/EarthCube/plugins/VotingPlugin/Backups/Backup-2022_SEPTEMBER_4.zip
+[11:49:37] [Timer-6/INFO]: [VotingPlugin] Finished processing day changes
+[11:50:33] [User Authenticator #3/INFO]: UUID of player PetitMulot is 12705a1b-56b6-4c3e-a6d0-209371f067b6
+[11:50:33] [Server thread/INFO]: [0;33;22m[SaberFactions] PetitMulot set autoLeave to false[m
+[11:50:33] [Server thread/INFO]: PetitMulot[/192.168.0.17:53551] logged in with entity id 218001 at ([World]-934.0, 63.0, -488.0)
+[11:50:34] [Server thread/INFO]: [0;33;1mPetitMulot joined the game[m
+[11:50:43] [Craft Scheduler Thread - 31/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[11:50:43] [Craft Scheduler Thread - 33/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:50:43] [Craft Scheduler Thread - 32/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[11:50:43] [Craft Scheduler Thread - 29/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[11:50:43] [Craft Scheduler Thread - 26/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:50:43] [Craft Scheduler Thread - 30/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[11:50:48] [Server thread/INFO]: PICKUP_ALL
+[11:50:50] [Server thread/INFO]: PetitMulot lost connection: Disconnected
+[11:50:50] [Server thread/INFO]: PetitMulot left the game
+[11:50:58] [User Authenticator #4/INFO]: UUID of player PetitMulot is 12705a1b-56b6-4c3e-a6d0-209371f067b6
+[11:50:59] [Server thread/INFO]: [0;33;22m[SaberFactions] PetitMulot set autoLeave to false[m
+[11:50:59] [Server thread/INFO]: PetitMulot[/192.168.0.17:53560] logged in with entity id 226618 at ([World]112.0, 193.1843574397663, -32.0)
+[11:50:59] [Server thread/INFO]: [0;33;1mPetitMulot joined the game[m
+[11:51:12] [Server thread/INFO]: PetitMulot issued server command: /warp
+[11:55:12] [Server thread/INFO]: Stopping the server
+[11:55:12] [Server thread/INFO]: Stopping server
+[11:55:12] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.4
+[11:55:12] [Server thread/INFO]: Waiting for 1 bucket(s) to finish. Average queue size of 0 requests
+[11:55:12] [Server thread/INFO]: [TabList] Disabling TabList v5.6.3
+[11:55:12] [Server thread/INFO]: [Factions] Disabling Factions v1.6.9.5-3.0.4-RC
+[11:55:12] [Server thread/INFO]: [0;33;22m[SaberFactions] ===== Shutdown Start =====[m
+[11:55:13] [Server thread/INFO]: [0;33;22m[SaberFactions] Shutdown Successful![m
+[11:55:13] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.0
+[11:55:13] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[11:55:13] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v2.3.2
+[11:55:13] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.4
+[11:55:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
+[11:55:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:55:13] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[11:55:13] [Server thread/INFO]: [VotingPlugin] Disabling VotingPlugin v6.9.4
+[11:55:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[11:55:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:55:13] [Server thread/INFO]: [dynmap] Disabling dynmap v3.4-beta-5-806
+[11:55:13] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[11:55:13] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[11:55:13] [Server thread/INFO]: [dynmap] Saved 31 pending tile renders in world 'World'
+[11:55:18] [Server thread/INFO]: [dynmap] Disabled
+[11:55:18] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[11:55:18] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:55:18] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.3.0
+[11:55:24] [Server thread/INFO]: [CustomEnderChest] Disabling CustomEnderChest v1.13.1
+[11:55:24] [Server thread/INFO]: [CustomEnderChest] Cleaning internal data...
+[11:55:24] [Server thread/INFO]: [CustomEnderChest] CustomEnderChest is disabled!
+[11:55:24] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.3
+[11:55:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[11:55:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:55:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:55:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:55:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b600
+[11:55:24] [Server thread/INFO]: [first] Disabling first v1.0
+[11:55:24] [Server thread/INFO]: §4le plugin s'arete
+[11:55:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.2
+[11:55:24] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.218-SNAPSHOT
+[11:55:24] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[11:55:24] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (1)
+[11:55:24] [Server thread/INFO]: [mcMMO] Saving data for player: PetitMulot
+[11:55:24] [Server thread/INFO]: [mcMMO] Finished save operation for 1 players!
+[11:55:24] [Server thread/INFO]: [Kit] Disabling Kit v1.0
+[11:55:24] [Server thread/INFO]: §4le plugin Kit s'arete
+[11:55:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.2
+[11:55:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[11:55:24] [Server thread/INFO]: [DropSpawner] Disabling DropSpawner v1.0.3
+[11:55:24] [Server thread/INFO]: [PlayerHeads] Disabling PlayerHeads v4.5.0
+[11:55:24] [Server thread/INFO]: Saving players
+[11:55:24] [Server thread/INFO]: PetitMulot lost connection: Server closed
+[11:55:24] [Server thread/INFO]: PetitMulot left the game.
+[11:55:24] [Server thread/INFO]: Saving worlds
+[11:55:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[11:55:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_nether]'/minecraft:the_nether
+[11:55:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_the_end]'/minecraft:the_end
+[11:55:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[11:55:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:55:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:55:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:55:43] [Server thread/INFO]: Thread Query Listener stopped
