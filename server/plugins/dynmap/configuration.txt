@@ -46,11 +46,11 @@ storage:
   #bucketname: "dynmap-bucket-name"
   #region: us-east-1
   #aws_access_key_id: "<aws-access-key-id>"
-  #aws_secret_access_key: "<aws-secret-access-key>"  
-  
+  #aws_secret_access_key: "<aws-secret-access-key>"
+
 components:
   - class: org.dynmap.ClientConfigurationComponent
-  
+
   - class: org.dynmap.InternalClientUpdateComponent
     sendhealth: true
     sendposition: true
@@ -77,7 +77,7 @@ components:
   #  hideifshadow: 4
   #  # Optional - make player hidden when they are under cover (#=sky light level,0=underground,15=open to sky)
   #  hideifundercover: 14
-  #  # (Optional) if true, players that are crouching/sneaking will be hidden 
+  #  # (Optional) if true, players that are crouching/sneaking will be hidden
     hideifsneaking: false
     # If true, player positions/status is protected (login with ID with dynmap.playermarkers.seeall permission required for info other than self)
     protected-player-info: false
@@ -108,12 +108,12 @@ components:
   #  chatlengthlimit: 256
   #  hide-if-invisiblity-potion: true
   #  hidenames: false
-   
+
   - class: org.dynmap.SimpleWebChatComponent
     allowchat: true
     # If true, web UI users can supply name for chat using 'playername' URL parameter.  'trustclientname' must also be set true.
     allowurlname: false
-  
+
   # Note: this component is needed for the dmarker commands, and for the Marker API to be available to other plugins
   - class: org.dynmap.MarkersComponent
     type: markers
@@ -142,7 +142,7 @@ components:
     # (optional) show world border (vanilla 1.8+)
     showworldborder: true
     worldborderlabel: "Border"
-    
+
   - class: org.dynmap.ClientComponent
     type: chat
     allowurlname: false
@@ -175,12 +175,12 @@ components:
     layerprio: 0
     # Optional - label for player marker layer (default is 'Players')
     label: "Players"
-    
+
   #- class: org.dynmap.ClientComponent
   #  type: digitalclock
   - class: org.dynmap.ClientComponent
     type: link
-    
+
   - class: org.dynmap.ClientComponent
     type: timeofdayclock
     showdigitalclock: true
@@ -192,7 +192,7 @@ components:
     hidey: false
     show-mcr: false
     show-chunk: false
-    
+
   # Note: more than one logo component can be defined
   #- class: org.dynmap.ClientComponent
   #  type: logo
@@ -207,7 +207,7 @@ components:
   #  timeout: 1800 # in seconds (1800 seconds = 30 minutes)
   #  redirecturl: inactive.html
   #  #showmessage: 'You were inactive for too long.'
-  
+
   #- class: org.dynmap.TestComponent
   #  stuff: "This is some configuration-value"
 
@@ -269,7 +269,7 @@ use-brightness-table: true
 block-alias:
 #    "minecraft:quartz_ore": "stone"
 #    "diamond_ore": "coal_ore"
-  
+
 # Default image format for HDMaps (png, jpg, jpg-q75, jpg-q80, jpg-q85, jpg-q90, jpg-q95, jpg-q100, webp, webp-q75, webp-q80, webp-q85, webp-q90, webp-q95, webp-q100, webp-l),
 # Note: any webp format requires the presence of the 'webp command line tools' (cwebp, dwebp) (https://developers.google.com/speed/webp/download)
 #
@@ -346,7 +346,7 @@ exportpath: export
 #webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 8123
+webserver-port: 2308
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 30
@@ -401,7 +401,7 @@ grayplayerswhenhidden: true
 # That is, anyone with first listed permission goes before anyone with second, etc, with users with none of the nodes going last
 player-sort-permission-nodes:
   - bukkit.command.op
-  
+
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
 #sidebaropened: true
 
@@ -415,7 +415,7 @@ player-sort-permission-nodes:
 trusted-proxies:
   - "127.0.0.1"
   - "0:0:0:0:0:0:0:1"
-  
+
 # Join/quit message format for web chat: set to "" to disable notice on web UI
 joinmessage: "%playername% joined"
 quitmessage: "%playername% quit"
