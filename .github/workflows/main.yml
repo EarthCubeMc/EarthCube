@@ -31,9 +31,9 @@ jobs:
 
 
           # will put all file under this path
-          local_path: ./* # default is ./*
+          local_path: ./server/* # default is ./*
           # files will copy to under remote_path
-          remote_path: server/
+          remote_path: .
 
           # sftp args
           args: '-o ConnectTimeout=5'
