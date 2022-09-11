@@ -26,7 +26,8 @@ jobs:
           username: rpykt77s.fb2a59d3
           server: game23-dc02.ouiheberg.com
           port: 2022 # default is 22
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          sftp_only: true
+          password: ${{ secrets.FTP_PASSWORD }}
 
           
           # will put all file under this path
