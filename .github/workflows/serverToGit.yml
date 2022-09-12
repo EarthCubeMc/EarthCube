@@ -40,5 +40,14 @@ jobs:
           # C:\Program Files(x86)\WinSCP\winscp.com /script=script.winscp
           start 'D:\Program Files (x86)\WinSCP\WinSCP.com' /script=script.winscp
           # winscp.com /script=script.winscp
-          echo "push on git"
-          git add server/*;git commit -m "auto update server file to git";git push
+          
+      - name: Commit
+        run: |
+        if [[ `git status --untracked-files=no --porcelain server/` != "\n" ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git config pull.rebase true
+          git add server/
+          git commit -m "Auto server file update"
+          git push
+        fi
