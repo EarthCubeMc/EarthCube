@@ -35,7 +35,7 @@ jobs:
           echo "synchronize"
           # start /max C:\"Program Files (x86)"\WinSCP\winscp.com /script=script.winscp
           # C:\Program Files(x86)\WinSCP\winscp.com /script=script.winscp
-          start 'C:\Program Files (x86)\WinSCP\WinSCP.com' /script=script.winscp
+          start 'D:\Program Files (x86)\WinSCP\WinSCP.com' /script=script.winscp
           # winscp.com /script=script.winscp
           echo "push on git"
           git add server/*;git commit -m "auto update server file to git";git push
