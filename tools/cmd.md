@@ -12,3 +12,9 @@ put -transfer local file
 rm plugins/dynmap/configuration.txt
 put plugins/dynmap/configuration.txt plugins/dynmap/
 put plugins/*.jar plugins/
+
+
+winscp "EarthCube ouiheberge"
+
+winscp.exe "EarthCube ouiheberge" /synchronize "C:\Users\lili5\git\EarthCube\server\" "/" both -delete -preview
+git add *;git commit -m "auto update server file to git";git push

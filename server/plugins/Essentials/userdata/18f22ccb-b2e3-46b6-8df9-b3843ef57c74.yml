@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1662963287377
-  login: 1662963159957
+  logout: 1662970755478
+  login: 1662970733283
 money: '56.0'
 last-account-name: Hydrolien
 logoutlocation:
   world: 44d0f72b-db6a-4657-8209-60a86e480616
   world-name: World
-  x: 321.0999817219368
-  y: 78.78478137438512
-  z: -138.98035867031027
-  yaw: 145.21209716796875
-  pitch: 58.60066604614258
+  x: 311.5997384318532
+  y: 67.0
+  z: -98.716806902771
+  yaw: 169.958251953125
+  pitch: 34.322288513183594
 lastlocation:
   world: 44d0f72b-db6a-4657-8209-60a86e480616
   world-name: World
