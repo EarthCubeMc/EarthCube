@@ -27,18 +27,19 @@ jobs:
           ~\WinSCP-5.21.1-Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /CURRENTUSER /NORESTART
           ls ~
           ls C:\
-          # ls C:\Users\runneradmin\AppData\Local\Programs\
-          # ls C:\Users\runneradmin\AppData\Local\Programs\WinSCP
-          # echo "synchronize"
-          # C:\Users\runneradmin\AppData\Local\Programs\WinSCP\WinSCP.com /script=script.winscp
+          ls C:\Users\runneradmin\AppData\Local\Programs\
+          ls C:\Users\runneradmin\AppData\Local\Programs\WinSCP
+          echo "synchronize"
+          C:\Users\runneradmin\AppData\Local\Programs\WinSCP\WinSCP.com /script=script.winscp
 
       - name: Commit
+        shell: pwsh
         run: |
-        if [[ `git status --untracked-files=no --porcelain server/` != "\n" ]]; then
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git config pull.rebase true
-          git add server/
-          git commit -m "Auto server file update"
-          git push
-        fi
+          if [[ `git status --untracked-files=no --porcelain server/` != "\n" ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git config pull.rebase true
+            git add server/
+            git commit -m "Auto server file update"
+            git push
+          fi
