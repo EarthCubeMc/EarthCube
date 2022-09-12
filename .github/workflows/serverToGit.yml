@@ -26,23 +26,11 @@ jobs:
           Invoke-WebRequest -URI 'https://webwerks.dl.sourceforge.net/project/winscp/WinSCP/5.21.1/WinSCP-5.21.1-Setup.exe' -OutFile '~\WinSCP-5.21.1-Setup.exe'
           ~\WinSCP-5.21.1-Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /CURRENTUSER /NORESTART
           ls ~
-          # echo "Add winscp to path"
-          # $addPath = 'C:\Program Files (x86)\WinSCP\'
-          # $regexAddPath = [regex]::Escape($addPath)
-          # $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch
-          # "^$regexAddPath\\?"}
-          # $env:Path = ($arrPath + $addPath) -join ';'
           ls C:\
-          # ls "C:\Program Files (x86)\"
-          # ls "C:\Program Files (x86)\WinSCP\"
           ls C:\Users\runneradmin\AppData\Local\Programs\
           ls C:\Users\runneradmin\AppData\Local\Programs\WinSCP
           echo "synchronize"
-          # start /max C:\"Program Files (x86)"\WinSCP\winscp.com /script=script.winscp
-          # C:\Program Files(x86)\WinSCP\winscp.com /script=script.winscp
-          # start 'D:\Program Files (x86)\WinSCP\WinSCP.com' /script=script.winscp
           C:\Users\runneradmin\AppData\Local\Programs\WinSCP\WinSCP.com /script=script.winscp
-          # winscp.com /script=script.winscp
 
       - name: Commit
         run: |
