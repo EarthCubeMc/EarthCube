@@ -23,7 +23,7 @@ jobs:
         shell: pwsh
         run: |
           echo "Download and install winscp"
-          (new-object System.Net.WebClient).DownloadFile('https://webwerks.dl.sourceforge.net/project/winscp/WinSCP/5.21.1/WinSCP-5.21.1-Setup.exe','C:\tmp\WinSCP-5.21.1-Setup.exe')
+          Invoke-WebRequest -URI 'https://webwerks.dl.sourceforge.net/project/winscp/WinSCP/5.21.1/WinSCP-5.21.1-Setup.exe' -OutFile 'C:\tmp\WinSCP-5.21.1-Setup.exe'
           C:\tmp\WinSCP-5.21.1-Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /NORESTART
           echo "Add winscp to path"
           $addPath = 'C:\Program Files (x86)\WinSCP\'
