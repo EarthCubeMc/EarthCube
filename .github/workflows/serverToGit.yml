@@ -23,8 +23,9 @@ jobs:
         shell: pwsh
         run: |
           echo "Download and install winscp"
-          Invoke-WebRequest -URI 'https://webwerks.dl.sourceforge.net/project/winscp/WinSCP/5.21.1/WinSCP-5.21.1-Setup.exe' -OutFile 'C:\tmp\WinSCP-5.21.1-Setup.exe'
-          C:\tmp\WinSCP-5.21.1-Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /NORESTART
+          Invoke-WebRequest -URI 'https://webwerks.dl.sourceforge.net/project/winscp/WinSCP/5.21.1/WinSCP-5.21.1-Setup.exe' -OutFile '~\WinSCP-5.21.1-Setup.exe'
+          ~\WinSCP-5.21.1-Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /NORESTART
+          ls ~
           echo "Add winscp to path"
           $addPath = 'C:\Program Files (x86)\WinSCP\'
           $regexAddPath = [regex]::Escape($addPath)
