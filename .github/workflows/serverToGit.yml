@@ -26,13 +26,16 @@ jobs:
           Invoke-WebRequest -URI 'https://webwerks.dl.sourceforge.net/project/winscp/WinSCP/5.21.1/WinSCP-5.21.1-Setup.exe' -OutFile '~\WinSCP-5.21.1-Setup.exe'
           ~\WinSCP-5.21.1-Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /NORESTART
           ls ~
-          echo "Add winscp to path"
-          $addPath = 'C:\Program Files (x86)\WinSCP\'
-          $regexAddPath = [regex]::Escape($addPath)
-          $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch
-          "^$regexAddPath\\?"}
-          $env:Path = ($arrPath + $addPath) -join ';'
+          # echo "Add winscp to path"
+          # $addPath = 'C:\Program Files (x86)\WinSCP\'
+          # $regexAddPath = [regex]::Escape($addPath)
+          # $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch
+          # "^$regexAddPath\\?"}
+          # $env:Path = ($arrPath + $addPath) -join ';'
           echo "synchronize"
-          winscp.exe "EarthCube ouiheberge" /synchronize "C:\Users\lili5\git\EarthCube\server\" "/" both -delete -preview
+          # start /max C:\"Program Files (x86)"\WinSCP\winscp.com /script=script.winscp
+          # C:\Program Files(x86)\WinSCP\winscp.com /script=script.winscp
+          start 'C:\Program Files (x86)\WinSCP\WinSCP.com' /script=script.winscp
+          # winscp.com /script=script.winscp
           echo "push on git"
           git add server/*;git commit -m "auto update server file to git";git push
