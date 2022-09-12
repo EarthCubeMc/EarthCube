@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2022-09-11 18:18:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2022-09-02 08:26:22 +0200"
@@ -140,6 +146,12 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2022-09-02 08:45:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-09-11 18:18:59 +0200"
     },
     "done": true
   },
@@ -247,6 +259,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2022-09-11 18:47:31 +0200",
       "bread": "2022-09-02 08:30:46 +0200"
     },
     "done": false
@@ -666,6 +679,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2022-09-02 08:26:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-09-11 18:18:59 +0200"
     },
     "done": true
   },

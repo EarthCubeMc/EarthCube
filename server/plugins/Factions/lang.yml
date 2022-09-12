@@ -1152,6 +1152,10 @@ COMMAND:
     TOOMUCHFAIL: '&cAborting unclaim fill after %d failures'
     UNCLAIMED: '%1$s&e unclaimed %d claims of your faction''s land around %s.'
     BYPASSCOMPLETE: '&eUnclaimed %d claims.'
+  SET:
+    RELATION:
+      SUCCESS: '&c&l[!] &7You have set a relation of &e%1$s &7between &b%2$s and &b%3$s&7.'
+      DESCRIPTION: Set the relation of 2 factions.
 command:
   help:
     invitations: 'You might want to close it and use invitations:'

@@ -1,5 +1,5 @@
 config:
-  date: 3
+  date: 12
   aide:
     rank: '&4/kit'
     shop: '&4shop link isn''t set /kit setshoplink'
@@ -28,25 +28,41 @@ config:
       vip:
         eureur7: 2
         PetitMulot: 0
+        Hydrolien: 0
+        VegaMissyl: 0
       vipP:
         eureur7: 2
         PetitMulot: 0
+        Hydrolien: 0
+        VegaMissyl: 0
       youtube:
         eureur7: 2
         PetitMulot: 0
+        Hydrolien: 0
+        VegaMissyl: 0
       beginner:
         eureur7: 2
         PetitMulot: 0
+        Hydrolien: 0
+        VegaMissyl: 0
     weekly:
       vipW:
         eureur7: 0
         PetitMulot: -7
+        Hydrolien: -7
+        VegaMissyl: -7
       vipPW:
         eureur7: -7
         PetitMulot: -7
+        Hydrolien: -7
+        VegaMissyl: -7
       youtubeW:
         eureur7: -7
         PetitMulot: -7
+        Hydrolien: -7
+        VegaMissyl: -7
       beginnerW:
         eureur7: -7
         PetitMulot: -7
+        Hydrolien: -7
+        VegaMissyl: -7
