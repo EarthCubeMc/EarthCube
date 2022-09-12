@@ -1,4 +1,4 @@
-LastUpdated: 1662285313029
+LastUpdated: 1662966056152
 IntColumns:
 - VotePartyVotes
 - MilestoneCount
@@ -22,5 +22,6 @@ VotingPlugin:
 PluginVersions:
   VotingPlugin: 6.9.4
 Month: SEPTEMBER
-PrevWeek: 37
-PrevDay: 4
+PrevWeek: 38
+PrevDay: 12
+IgnoreTime: false

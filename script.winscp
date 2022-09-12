@@ -1,0 +1,2 @@
+open sftp://rpykt77s.fb2a59d3:EarthCube159357.@game23-dc02.ouiheberg.com:2022/
+synchronize local -delete -criteria=size "server/" "/"

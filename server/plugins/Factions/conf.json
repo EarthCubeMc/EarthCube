@@ -69,7 +69,7 @@
   "broadcastTagChanges": false,
   "saveToFileEveryXMinutes": 30.0,
   "useAutoLeaveAndDisbandSystem": true,
-  "autoLeaveAfterDaysOfInactivity": 14.0,
+  "autoLeaveAfterDaysOfInactivity": 20.0,
   "autoLeaveRoutineRunsEveryXMinutes": 30.0,
   "autoLeaveRoutineMaxMillisecondsPerTick": 5,
   "removePlayerDataWhenBanned": true,

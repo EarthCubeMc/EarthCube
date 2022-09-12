@@ -8,3 +8,13 @@ lcmd to launch cmd in local
 ls & cd work as usuel
 rm -r = rmdir
 put -transfer local file
+
+rm plugins/dynmap/configuration.txt
+put plugins/dynmap/configuration.txt plugins/dynmap/
+put plugins/*.jar plugins/
+
+
+winscp "EarthCube ouiheberge"
+
+winscp.exe "EarthCube ouiheberge" /synchronize "C:\Users\lili5\git\EarthCube\server\" "/" both -delete -preview
+git add server/*;git commit -m "auto update server file to git";git push
