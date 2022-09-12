@@ -32,9 +32,9 @@ jobs:
           # $arrPath = $env:Path -split ';' | Where-Object {$_ -notMatch
           # "^$regexAddPath\\?"}
           # $env:Path = ($arrPath + $addPath) -join ';'
-          ls D:\
-          ls D:\Program Files(x86)\
-          ls D:\Program Files(x86)\WinSCP\
+          ls C:\
+          ls "C:\Program Files (x86)\"
+          ls "C:\Program Files (x86)\WinSCP\"
           echo "synchronize"
           # start /max C:\"Program Files (x86)"\WinSCP\winscp.com /script=script.winscp
           # C:\Program Files(x86)\WinSCP\winscp.com /script=script.winscp
