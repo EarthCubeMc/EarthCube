@@ -18,3 +18,6 @@ winscp "EarthCube ouiheberge"
 
 winscp.exe "EarthCube ouiheberge" /synchronize "C:\Users\lili5\git\EarthCube\server\" "/" both -delete -preview
 git add server/*;git commit -m "auto update server file to git";git push
+
+winscp.com /script=script.winscp
+git add server/*;git commit -m "auto update server file to git";git push
