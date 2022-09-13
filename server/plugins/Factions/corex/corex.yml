@@ -16,26 +16,26 @@ Features:
   Armor-Swap: true #Allows PLayers To Right Click Armor and Rotate Their Equipped Armor Into Their Hotbar just by right clicking
   Blocked-Enchantments: false #Denies Specific Enchantments Whilst Being In Enchantment Table
   Anti-Block-Placement: true #Configurable List Below For Specific Blocks You Do NOT want your players placing
-  Anti-Baby-Zombies: true #Denies Baby Zombies and Pig Zombies from Spawning
+  Anti-Baby-Zombies: false #Denies Baby Zombies and Pig Zombies from Spawning
   Anti-Mob-Movement: false #Configurable List Provided Below of which mobs you DO NOT want to move
   Anti-Mob-Targeting: false #Denies Mob Targeting
-  Iron-Golem-Health: true #Configurable Amount of Health an Iron Golem can spawn in with
-  Water-Proof-Blazes: true #Denies Water Damage To Blazes (Useful for most Factions Servers)
+  Iron-Golem-Health: false #Configurable Amount of Health an Iron Golem can spawn in with
+  Water-Proof-Blazes: false #Denies Water Damage To Blazes (Useful for most Factions Servers)
   Anti-Book-Quill-Crash: true #Denies Players to be able to do book and quill crashes
   Anti-Cobble-Monster: false #Denies Lava and Water Flowing into each other
-  Anti-Death-Clip: true #Denies Death Clipping EX: Killing each other at the same time
+  Anti-Death-Clip: false #Denies Death Clipping EX: Killing each other at the same time
   Anti-Dupe: true #Multiple general dupe patches, more to be added soon
-  Anti-Nether-Roof: true #Denies Pistons breaching the nether roof.
+  Anti-Nether-Roof: false #Denies Pistons breaching the nether roof.
   Anti-Piston-Glitch: false #Denies Automatic Piston Farms
   Anti-Wilderness-Spawner: false #Denies Spawners From Spawning in Wilderness
   Auto-Respawn: false #Automatically Respawn on Death
   Book-Disenchant: false #Left-Click and enchantment table, to remove all of the enchantments off of an item
-  Border-Patches: true #Various Border Patches, Useful for Most Factions Servers
+  Border-Patches: false #Various Border Patches, Useful for Most Factions Servers
   Anti-Explosion-Damage: false #Denies Players from Taking Damage To TNT
-  Anti-Dragon-Egg-TP: true #Denies Dragon Egg Teleport
+  Anti-Dragon-Egg-TP: false #Denies Dragon Egg Teleport
   Enemy-Spawner-Mine: false #Denies Players to Mine spawners if they are in {x} radius of an enemy
-  Insta-Sponge-Break: true #Instantly Break Sponges
-  Anti-Natural-Mobs: true #Denies all natural mob spawns
+  Insta-Sponge-Break: false #Instantly Break Sponges
+  Anti-Natural-Mobs: false #Denies all natural mob spawns
 
 AntiSpawnerMine:
   Radius: 20.0 # Radius that the player will be denied mining spawners when an enemy is near.
@@ -47,13 +47,12 @@ ironGolemHealth: 50.0 #50.0 = 25 hearts
 BlockedEnchants:
   - example
 
-Armor-Swap-Cooldown: 500 #This is in Milliseconds - 500 = .5 seconds
+Armor-Swap-Cooldown: 1 #This is in Milliseconds - 500 = .5 seconds
 
 Denied-Blocks: #List Here A Bunch OF Blocks You Do NOT Want Players To Place
   - 'BEDROCK'
 
 Anti-Mob-Movement:
   Mob-List:
-    - 'CREEPER'
-    - 'BLAZE'
-
+    # - 'CREEPER'
+    # - 'BLAZE'
