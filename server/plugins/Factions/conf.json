@@ -70,7 +70,7 @@
   "saveToFileEveryXMinutes": 30.0,
   "useAutoLeaveAndDisbandSystem": true,
   "autoLeaveAfterDaysOfInactivity": 20.0,
-  "autoLeaveRoutineRunsEveryXMinutes": 30.0,
+  "autoLeaveRoutineRunsEveryXMinutes": 1440.0,
   "autoLeaveRoutineMaxMillisecondsPerTick": 5,
   "removePlayerDataWhenBanned": true,
   "removePlayerDataWhenBannedReason": "Banned by admin.",
