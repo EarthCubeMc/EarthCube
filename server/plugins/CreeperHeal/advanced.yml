@@ -1,0 +1,27 @@
+debug-messages: false
+replace-silverfish-blocks: false
+performance:
+  sort-exploded-blocks-by-distance: true
+  save-suffocating-mobs: true
+  replace-rails-correctly: true
+  keep-leaves-vines: true
+drop-destroyed-blocks:
+  enabled: true
+  chance: 100
+obsidian:
+  enchant-tables-and-chests: false
+  explode: false
+  radius: 5
+  chance: 20
+overwrite-blocks: true
+teleport-when-buried: true
+join-nearby-explosions: true
+prevent-chain-reaction: false
+prevent-block-fall: true
+log-warnings: true
+change-stone-to-cobble: false
+wait-before-burn-again: 240
+verbose-level: 1
+distance-near: 20
+command-alias: ch
+config-version: 12

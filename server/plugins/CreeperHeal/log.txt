@@ -1,0 +1,12 @@
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/config.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/advanced.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World/config.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World/advanced.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World/grief.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_nether/config.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_nether/advanced.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_nether/grief.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_the_end/config.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_the_end/advanced.yml
+18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_the_end/grief.yml
+18:25:06 [INFO] Successfully hooked into Factions

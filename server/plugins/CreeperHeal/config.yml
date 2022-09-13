@@ -1,0 +1,11 @@
+replace-protected-chests-immediately: false
+crack-destroyed-bricks: false
+block-per-block:
+  enabled: true
+  interval: 20
+wait-before-heal:
+  explosions: 60
+  fire: 45
+sound:
+  volume: 1
+  type: ENTITY_ITEM_PICKUP
