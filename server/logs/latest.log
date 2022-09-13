@@ -1,551 +1,626 @@
-[10:16:18] [ServerMain/INFO]: Building unoptimized datafixer
-[10:16:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:16:23] [ServerMain/INFO]: Loaded 7 recipes
-[10:16:26] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[10:16:26] [Server thread/INFO]: Loading properties
-[10:16:26] [Server thread/INFO]: This server is running CraftBukkit version 3579-Spigot-e53686f-dd0a218 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
-[10:16:26] [Server thread/INFO]: Debug logging is disabled
-[10:16:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:16:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:16:26] [Server thread/INFO]: Default game type: SURVIVAL
-[10:16:26] [Server thread/INFO]: Generating keypair
-[10:16:27] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:2709
-[10:16:27] [Server thread/INFO]: Using epoll channel type
-[10:16:28] [Server thread/INFO]: [StackMob] Loading 2 libraries... please wait
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-bukkit/4.1.1/adventure-platform-bukkit-4.1.1.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-api/4.1.1/adventure-platform-api-4.1.1.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-bungeecord/4.1.1/adventure-text-serializer-bungeecord-4.1.1.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-nbt/4.11.0/adventure-nbt-4.11.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.11.0/adventure-text-serializer-gson-legacy-impl-4.11.0.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-facet/4.1.1/adventure-platform-facet-4.1.1.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-viaversion/4.1.1/adventure-platform-viaversion-4.1.1.jar
-[10:16:28] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loading 1 libraries... please wait
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[10:16:29] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[10:16:29] [Server thread/INFO]: [PlayerHeads] Loading PlayerHeads v4.5.0
-[10:16:29] [Server thread/INFO]: [DropSpawner] Loading DropSpawner v1.0.3
-[10:16:29] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
-[10:16:29] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
-[10:16:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[10:16:30] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[10:16:30] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[10:16:30] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[10:16:30] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[10:16:30] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[10:16:30] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[10:16:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[10:16:30] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[10:16:31] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[10:16:31] [Server thread/INFO]: [Kit] Loading Kit v1.0
-[10:16:31] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.218-SNAPSHOT
-[10:16:31] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.2
-[10:16:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[10:16:32] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[10:16:32] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[10:16:32] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[10:16:32] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[10:16:32] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[10:16:32] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[10:16:32] [Server thread/INFO]: [first] Loading first v1.0
-[10:16:32] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b600
-[10:16:32] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
-[10:16:34] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[10:16:34] [Server thread/INFO]: [StackMob] Loading StackMob v5.8.3
-[10:16:34] [Server thread/INFO]: [CustomEnderChest] Loading CustomEnderChest v1.13.1
-[10:16:34] [Server thread/INFO]: [Orebfuscator] Loading Orebfuscator v5.3.0
-[10:16:34] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[10:16:34] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[10:16:34] [Server thread/INFO]: [dynmap] Loading dynmap v3.4-beta-5-806
-[10:16:34] [Server thread/INFO]: [dynmap] version=3579-Spigot-e53686f-dd0a218 (MC: 1.19.2)
-[10:16:34] [Server thread/INFO]: [dynmap] Mod Support API available
-[10:16:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[10:16:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4e151431]
-[10:16:35] [Server thread/INFO]: [VotingPlugin] Loading VotingPlugin v6.9.4
-[10:16:35] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
-[10:16:35] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.4
-[10:16:35] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.0
-[10:16:35] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.2
-[10:16:35] [Server thread/INFO]: [Factions] Loading Factions v1.6.9.5-3.0.5-RC
-[10:16:35] [Server thread/INFO]: [TabList] Loading TabList v5.6.3
-[10:16:35] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.19.4
-[10:16:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b600
-[10:16:35] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[10:16:36] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[10:16:36] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.40[m
-[10:16:36] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[10:16:36] [Server thread/INFO]: [m
-[10:16:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:16:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:16:38] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:16:38] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:16:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3496ms)
-[10:16:39] [Server thread/INFO]: [CustomEnderChest] Enabling CustomEnderChest v1.13.1
-[10:16:39] [Server thread/INFO]: [CustomEnderChest] Incompatible server version detected: 1.19.2 . Running into 1.16 API mode.
-[10:16:39] [Server thread/INFO]: [CustomEnderChest] Loading the config file...
-[10:16:39] [Server thread/INFO]: [CustomEnderChest] Config loaded successfully!
-[10:16:39] [Server thread/INFO]: [CustomEnderChest] Using FlatFile system for data. IMPORTANT! We recommend MySQL.
-[10:16:39] [Server thread/INFO]: [CustomEnderChest] CustomEnderChest loaded successfully!
-[10:16:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[10:16:39] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
-[10:16:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[10:16:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[10:16:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[10:16:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[10:16:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[10:16:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:16:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:16:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[10:16:43] [Server thread/INFO]: [WorldEdit] ====================================================
-[10:16:43] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[10:16:43] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[10:16:43] [Server thread/INFO]: [WorldEdit]   
-[10:16:43] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[10:16:43] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[10:16:43] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[10:16:43] [Server thread/INFO]: [WorldEdit]   
-[10:16:43] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[10:16:43] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[10:16:43] [Server thread/INFO]: [WorldEdit]   
-[10:16:43] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[10:16:43] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[10:16:43] [Server thread/INFO]: [WorldEdit]   
-[10:16:43] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[10:16:43] [Server thread/INFO]: [WorldEdit] ====================================================
-[10:16:43] [Server thread/INFO]: Preparing level "World"
-[10:16:43] [Server thread/INFO]: -------- World Settings For [World] --------
-[10:16:43] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:16:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:16:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[10:16:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:16:43] [Server thread/INFO]: Max TNT Explosions: 100
-[10:16:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:16:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[10:16:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:16:43] [Server thread/INFO]: Mob Spawn Range: 6
-[10:16:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:16:43] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:16:43] [Server thread/INFO]: View Distance: 10
-[10:16:43] [Server thread/INFO]: Simulation Distance: 10
-[10:16:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:16:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:16:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:16:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:16:45] [Server thread/INFO]: -------- World Settings For [World_nether] --------
-[10:16:45] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:16:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:16:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[10:16:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:16:45] [Server thread/INFO]: Max TNT Explosions: 100
-[10:16:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:16:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[10:16:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:16:45] [Server thread/INFO]: Mob Spawn Range: 6
-[10:16:45] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:16:45] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:16:45] [Server thread/INFO]: View Distance: 10
-[10:16:45] [Server thread/INFO]: Simulation Distance: 10
-[10:16:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:16:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:16:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:16:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:17:09] [Server thread/INFO]: -------- World Settings For [World_the_end] --------
-[10:17:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:17:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:17:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[10:17:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:17:09] [Server thread/INFO]: Max TNT Explosions: 100
-[10:17:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:17:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[10:17:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:17:09] [Server thread/INFO]: Mob Spawn Range: 6
-[10:17:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:17:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:17:09] [Server thread/INFO]: View Distance: 10
-[10:17:09] [Server thread/INFO]: Simulation Distance: 10
-[10:17:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:17:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:17:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:17:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:17:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:20] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[10:17:21] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[10:17:21] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[10:17:22] [Server thread/INFO]: Time elapsed: 12885 ms
-[10:17:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:28] [Worker-Main-1/INFO]: Preparing spawn area: 93%
-[10:17:28] [Server thread/INFO]: Time elapsed: 6169 ms
-[10:17:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[10:17:33] [Server thread/INFO]: Time elapsed: 4971 ms
-[10:17:33] [Server thread/INFO]: [PlayerHeads] Enabling PlayerHeads v4.5.0
-[10:17:33] [Server thread/INFO]: [PlayerHeads] Internal plugin locale: 
-[10:17:33] [Server thread/INFO]: [PlayerHeads] Environment locale: en_US / en-US
-[10:17:33] [Server thread/INFO]: [PlayerHeads] Compatibility-Provider: 1.13
-[10:17:33] [Server thread/INFO]: [DropSpawner] Enabling DropSpawner v1.0.3
-[10:17:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
-[10:17:33] [Server thread/INFO]: [Kit] Enabling Kit v1.0
-[10:17:33] [Server thread/INFO]: §4le plugin Kit est demarer 
-[10:17:33] [Server thread/INFO]:  jour :12
-[10:17:33] [Server thread/INFO]: 
-[10:17:34] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.218-SNAPSHOT
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: config.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: config.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: config.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
-[10:17:34] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: advanced.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: advanced.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: advanced.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
-[10:17:34] [Server thread/INFO]: [mcMMO] Platform String: 1.19.2-R0.1-SNAPSHOT
-[10:17:34] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.19.2
-[10:17:34] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
-[10:17:34] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: persistent_data.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: persistent_data.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: persistent_data.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [Debug] No errors found in persistent_data.yml!
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: upgrades_overhaul.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: upgrades_overhaul.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: upgrades_overhaul.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: treasures.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: treasures.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: treasures.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: fishing_treasures.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: fishing_treasures.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: fishing_treasures.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
-[10:17:34] [Server thread/INFO]: [mcMMO] Loading mcMMO potions.yml File...
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: coreskills.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: coreskills.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: coreskills.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Initializing config: sounds.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: sounds.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] [config] Config initialized: sounds.yml
-[10:17:34] [Server thread/INFO]: [mcMMO] Loading mcMMO skillranks.yml File...
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Initializing config: child.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: child.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Config initialized: child.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Initializing config: repair.vanilla.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: repair.vanilla.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Config initialized: repair.vanilla.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Initializing config: salvage.vanilla.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: salvage.vanilla.yml
-[10:17:38] [Server thread/INFO]: [mcMMO] [config] Config initialized: salvage.vanilla.yml
-[10:17:40] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
-[10:17:40] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
-[10:17:40] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
-[10:17:40] [Server thread/INFO]: [mcMMO] [config] Initializing config: experience.yml
-[10:17:40] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: experience.yml
-[10:17:40] [Server thread/INFO]: [mcMMO] [config] Config initialized: experience.yml
-[10:17:40] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[10:17:40] [Server thread/INFO]: [mcMMO] [config] Initializing config: chat.yml
-[10:17:40] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: chat.yml
-[10:17:40] [Server thread/INFO]: [mcMMO] [config] Config initialized: chat.yml
-[10:17:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.2
-[10:17:40] [Server thread/INFO]: [first] Enabling first v1.0
-[10:17:40] [Server thread/INFO]: §4le plugin est demarer
-[10:17:40] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.3
-[10:17:40] [Server thread/INFO]: [StackMob] StackMob v5.8.3 by antiPerson and contributors.
-[10:17:40] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
-[10:17:40] [Server thread/INFO]: [StackMob] Loading config files...
-[10:17:40] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
-[10:17:40] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
-[10:17:40] [Server thread/WARN]: [StackMob] It has been detected that you are not using Paper (https://papermc.io).
-[10:17:40] [Server thread/WARN]: [StackMob] StackMob makes use of Paper's API, which means you're missing out on features.
-[10:17:40] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.3.0
-[10:17:41] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[10:17:41] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[10:17:41] [Thread-13/INFO]: [StackMob] A new version is currently available. (5.8.4)
-[10:17:41] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[10:17:41] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[10:17:41] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[10:17:41] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[10:17:41] [Server thread/INFO]: [dynmap] Enabling dynmap v3.4-beta-5-806
-[10:17:42] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[10:17:42] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.40 for access control
-[10:17:42] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[10:17:48] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[10:17:48] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[10:17:48] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[10:17:48] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[10:17:48] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[10:17:49] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:2308
-[10:17:49] [Server thread/INFO]: [dynmap] version 3.4-beta-5-806 is enabled - core version 3.4-beta-5-806
-[10:17:49] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[10:17:49] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://twitter.com/Dynmap
-[10:17:49] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[10:17:49] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[10:17:49] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'World'.
-[10:17:49] [Server thread/INFO]: [dynmap] World 'World_nether' disabled
-[10:17:49] [Server thread/INFO]: [dynmap] World 'World_the_end' disabled
-[10:17:49] [Server thread/INFO]: [dynmap] Enabled
-[10:17:49] [Server thread/INFO]: [VotingPlugin] Enabling VotingPlugin v6.9.4
-[10:17:49] [Server thread/WARN]: [VotingPlugin] Detected no voting sites, this may mean something isn't properly setup
-[10:17:51] [Server thread/INFO]: [VotingPlugin] Giving VotingPlugin.Player permission by default, can be disabled in the config
-[10:17:51] [Server thread/WARN]: [VotingPlugin] No VotifierEvent found, install Votifier, NuVotifier, or another Votifier plugin
-[10:17:51] [Server thread/INFO]: [VotingPlugin] Enabled VotingPlugin 6.9.4
-[10:17:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
-[10:17:51] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[10:17:52] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[10:17:52] [Server thread/INFO]: No kits found to migrate.
-[10:17:52] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
-[10:17:52] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
-[10:17:52] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
-[10:17:52] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[10:17:52] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
-[10:17:52] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
-[10:17:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525)
-[10:17:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439)
-[10:17:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584)
-[10:17:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403)
-[10:17:52] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
-[10:17:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968)
-[10:17:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293)
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[10:17:52] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
-[10:17:52] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
-[10:17:52] [Server thread/WARN]: 	... 15 more
-[10:17:52] [Server thread/INFO]: Loaded 36926 items from items.json.
-[10:17:52] [Server thread/INFO]: Using locale en_US
-[10:17:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:17:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:17:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[10:17:52] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[10:17:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.4
-[10:17:52] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[10:17:52] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.0
-[10:17:52] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 2.0 blocks, and timer delay of 20.
-[10:17:52] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
-[10:17:52] [Server thread/INFO]: [WorldBorder] [CONFIG] World "World" has border radius 1023x511 at X: 0.0 Z: 0.0 (wrapping)
-[10:17:52] [Server thread/INFO]: [WorldBorder] [CONFIG] Successfully hooked into DynMap for the ability to display borders.
-[10:17:52] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 256.0 Y: 62.0 Z: -256.0
-[10:17:52] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.2
-[10:17:53] [Server thread/INFO]: [Factions] Enabling Factions v1.6.9.5-3.0.5-RC
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] === ENABLE START ===[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 4 players[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 4 Factions[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Loading board from disk[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 25 board locations[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Economy integration through Vault plugin successful.[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] CoreX Integration Starting![m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 1 timers into list![m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Minecraft Version 1.19 found.[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] Internal Factions Top Being Used. NOTE: Very Basic[m
-[10:17:53] [Server thread/INFO]: [0;33;22m[SaberFactions] === ENABLE DONE (Took 572ms) ===[m
-[10:17:53] [Server thread/INFO]: [TabList] Enabling TabList v5.6.3
-[10:17:53] [Server thread/INFO]: [0;33;22m[[0;35;22mTab[0;31;1mList[0;33;22m][0;37;22m >[0;32;1m Enabled[0;33;22m v5.6.3[0;32;1m (96ms)[m
-[10:17:53] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.4
-[10:17:53] [Server thread/WARN]: [EssentialsDiscord] Loaded class org.slf4j.impl.StaticLoggerBinder from VotingPlugin v6.9.4 which is not a depend or softdepend of this plugin.
-[10:17:54] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
-[10:17:54] [Server thread/INFO]: Attempting to login to Discord...
-[10:17:54] [Thread-34/INFO]: [TabList] -------------
-[10:17:54] [Thread-34/INFO]: [TabList] New update is available for TabList
-[10:17:54] [Thread-34/INFO]: [TabList] Your version: 5.6.3, New version 5.6.4
-[10:17:54] [Thread-34/INFO]: [TabList] Download: https://www.spigotmc.org/resources/46229/
-[10:17:54] [Thread-34/INFO]: [TabList] 
-[10:17:54] [Thread-34/INFO]: [TabList] Always consider upgrading to the latest version, which may include fixes.
-[10:17:54] [Thread-34/INFO]: [TabList] 
-[10:17:54] [Thread-34/INFO]: [TabList] To disable update checking, go to the config file
-[10:17:54] [Thread-34/INFO]: [TabList] -------------
-[10:17:54] [Server thread/INFO]: Login Successful!
-[10:17:55] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
-[10:17:55] [JDA MainWS-ReadThread/INFO]: Finished Loading!
-[10:17:55] [Server thread/INFO]: Successfully logged in as bot essential#5387
-[10:17:57] [Server thread/INFO]: Done (74.167s)! For help, type "help"
-[10:17:57] [Server thread/INFO]: Starting GS4 status listener
-[10:17:57] [Server thread/INFO]: Thread Query Listener started
-[10:17:57] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[10:17:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1/2 (760)
-[10:17:57] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[10:17:57] [Craft Scheduler Thread - 5/INFO]: [Essentials] §6Fetching version information...
-[10:17:57] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[10:17:57] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
-[10:17:57] [Server thread/INFO]: [VotingPlugin] Successfully hooked into vault economy!
-[10:17:57] [Server thread/INFO]: [VotingPlugin] Hooked into vault permissions
-[10:17:58] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
-[10:17:58] [Craft Scheduler Thread - 5/WARN]: [Essentials] §4There is a new EssentialsX version available for download: §c2.19.7§4.
-[10:17:58] [Craft Scheduler Thread - 5/WARN]: [Essentials] §4Download it here:§c https://essentialsx.net/downloads.html?branch=stable
-[10:17:58] [Craft Scheduler Thread - 0/INFO]: [VotingPlugin] VotingPlugin is up to date! Version: 6.9.4
-[10:17:58] [Server thread/INFO]: [Factions] Balance for §2Wilderness had money: 0.0 found: 0.0 acc: faction-0
-[10:17:58] [Server thread/INFO]: [Factions] Balance for Terrier had money: 0.0 found: 0.0 acc: faction-1
-[10:17:58] [Server thread/INFO]: [Factions] Balance for §6Safezone had money: 0.0 found: 0.0 acc: faction--1
-[10:17:58] [Server thread/INFO]: [Factions] Balance for §4Warzone had money: 0.0 found: 0.0 acc: faction--2
-[10:18:52] [User Authenticator #1/INFO]: UUID of player Hydrolien is 18f22ccb-b2e3-46b6-8df9-b3843ef57c74
-[10:18:52] [Server thread/INFO]: [0;33;22m[SaberFactions] Hydrolien set autoLeave to false[m
-[10:18:53] [Server thread/INFO]: Hydrolien[/77.140.83.103:58497] logged in with entity id 37 at ([World]321.0999817219368, 78.78478137438512, -138.98035867031027)
-[10:18:53] [Server thread/INFO]: [0;33;1mHydrolien joined the game[m
-[10:19:01] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
-[10:19:15] [Server thread/INFO]: Hydrolien lost connection: Disconnected
-[10:19:15] [Server thread/INFO]: Hydrolien left the game
-[10:19:18] [Server thread/INFO]: Stopping the server
-[10:19:18] [Server thread/INFO]: Stopping server
-[10:19:18] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.4
-[10:19:18] [Server thread/INFO]: Waiting for 1 bucket(s) to finish. Average queue size of 0 requests
-[10:19:19] [Server thread/INFO]: [TabList] Disabling TabList v5.6.3
-[10:19:19] [Server thread/INFO]: [Factions] Disabling Factions v1.6.9.5-3.0.5-RC
-[10:19:19] [Server thread/INFO]: [0;33;22m[SaberFactions] ===== Shutdown Start =====[m
-[10:19:19] [Server thread/INFO]: [0;33;22m[SaberFactions] Shutdown Successful![m
-[10:19:19] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v2.3.2
-[10:19:19] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.0
-[10:19:19] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[10:19:19] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.4
-[10:19:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
-[10:19:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[10:19:19] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[10:19:19] [Server thread/INFO]: [VotingPlugin] Disabling VotingPlugin v6.9.4
-[10:19:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[10:19:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[10:19:19] [Server thread/INFO]: [dynmap] Disabling dynmap v3.4-beta-5-806
-[10:19:19] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[10:19:19] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[10:19:20] [Server thread/INFO]: [dynmap] Saved 48 pending tile renders in world 'World'
-[10:19:25] [Server thread/INFO]: [dynmap] Disabled
-[10:19:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[10:19:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[10:19:25] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.3.0
-[10:19:25] [Server thread/INFO]: [CustomEnderChest] Disabling CustomEnderChest v1.13.1
-[10:19:25] [Server thread/INFO]: [CustomEnderChest] Cleaning internal data...
-[10:19:25] [Server thread/INFO]: [CustomEnderChest] CustomEnderChest is disabled!
-[10:19:25] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.3
-[10:19:25] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
-[10:19:25] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[10:19:25] [Server thread/INFO]: [LuckPerms] Closing storage...
-[10:19:25] [Server thread/INFO]: [LuckPerms] Goodbye!
-[10:19:25] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b600
-[10:19:25] [Server thread/INFO]: [first] Disabling first v1.0
-[10:19:25] [Server thread/INFO]: §4le plugin s'arete
-[10:19:25] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.2
-[10:19:25] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.218-SNAPSHOT
-[10:19:25] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[10:19:25] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[10:19:25] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[10:19:25] [Server thread/INFO]: [Kit] Disabling Kit v1.0
-[10:19:25] [Server thread/INFO]: §4le plugin Kit s'arete
-[10:19:25] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.2
-[10:19:25] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[10:19:25] [Server thread/INFO]: [DropSpawner] Disabling DropSpawner v1.0.3
-[10:19:25] [Server thread/INFO]: [PlayerHeads] Disabling PlayerHeads v4.5.0
-[10:19:25] [Server thread/INFO]: Saving players
-[10:19:26] [Server thread/INFO]: Saving worlds
-[10:19:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
-[10:19:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_nether]'/minecraft:the_nether
-[10:19:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_the_end]'/minecraft:the_end
-[10:19:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
-[10:19:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:19:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:19:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:19:32] [Server thread/INFO]: Thread Query Listener stopped
+[08:02:50] [ServerMain/INFO]: Building unoptimized datafixer
+[08:02:52] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:02:55] [ServerMain/INFO]: Loaded 7 recipes
+[08:02:58] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[08:02:58] [Server thread/INFO]: Loading properties
+[08:02:58] [Server thread/INFO]: This server is running CraftBukkit version 3579-Spigot-e53686f-dd0a218 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[08:02:58] [Server thread/INFO]: Debug logging is disabled
+[08:02:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:02:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:02:58] [Server thread/INFO]: Default game type: SURVIVAL
+[08:02:58] [Server thread/INFO]: Generating keypair
+[08:02:59] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:2709
+[08:02:59] [Server thread/INFO]: Using epoll channel type
+[08:03:00] [Server thread/INFO]: [StackMob] Loading 2 libraries... please wait
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-bukkit/4.1.1/adventure-platform-bukkit-4.1.1.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-api/4.1.1/adventure-platform-api-4.1.1.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-api/4.11.0/adventure-api-4.11.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-key/4.11.0/adventure-key-4.11.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-bungeecord/4.1.1/adventure-text-serializer-bungeecord-4.1.1.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-legacy/4.11.0/adventure-text-serializer-legacy-4.11.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-nbt/4.11.0/adventure-nbt-4.11.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson/4.11.0/adventure-text-serializer-gson-4.11.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.11.0/adventure-text-serializer-gson-legacy-impl-4.11.0.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-facet/4.1.1/adventure-platform-facet-4.1.1.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/net/kyori/adventure-platform-viaversion/4.1.1/adventure-platform-viaversion-4.1.1.jar
+[08:03:00] [Server thread/INFO]: [StackMob] Loaded library /home/container/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loading 1 libraries... please wait
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[08:03:00] [Server thread/INFO]: [VotingPlugin] Loaded library /home/container/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[08:03:01] [Server thread/INFO]: [PlayerHeads] Loading PlayerHeads v4.5.0
+[08:03:01] [Server thread/INFO]: [DropSpawner] Loading DropSpawner v1.0.3
+[08:03:01] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
+[08:03:01] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
+[08:03:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[08:03:01] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[08:03:01] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[08:03:01] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[08:03:01] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[08:03:01] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[08:03:02] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[08:03:02] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[08:03:02] [Via-Mappingloader-8/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[08:03:02] [Server thread/INFO]: [Kit] Loading Kit v1.0
+[08:03:02] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.218-SNAPSHOT
+[08:03:02] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.2
+[08:03:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:03:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:03:03] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[08:03:03] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[08:03:04] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[08:03:04] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[08:03:04] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[08:03:05] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[08:03:05] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[08:03:05] [Server thread/INFO]: [first] Loading first v1.0
+[08:03:05] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b600
+[08:03:06] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[08:03:06] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
+[08:03:06] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[08:03:06] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[08:03:06] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[08:03:06] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[08:03:08] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[08:03:09] [Server thread/INFO]: [StackMob] Loading StackMob v5.8.3
+[08:03:09] [Server thread/INFO]: [CustomEnderChest] Loading CustomEnderChest v1.13.1
+[08:03:09] [Server thread/INFO]: [Orebfuscator] Loading Orebfuscator v5.3.0
+[08:03:09] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[08:03:09] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[08:03:09] [Server thread/INFO]: [dynmap] Loading dynmap v3.4-beta-5-806
+[08:03:09] [Server thread/INFO]: [dynmap] version=3579-Spigot-e53686f-dd0a218 (MC: 1.19.2)
+[08:03:09] [Server thread/INFO]: [dynmap] Mod Support API available
+[08:03:09] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[08:03:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6b301f8d]
+[08:03:10] [Server thread/INFO]: [VotingPlugin] Loading VotingPlugin v6.9.4
+[08:03:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[08:03:10] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.4
+[08:03:10] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.0
+[08:03:10] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.2
+[08:03:10] [Server thread/INFO]: [Factions] Loading Factions v1.6.9.5-3.0.5-RC
+[08:03:10] [Server thread/INFO]: [TabList] Loading TabList v5.6.3
+[08:03:10] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.19.4
+[08:03:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b600
+[08:03:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[08:03:11] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[08:03:11] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.40[m
+[08:03:11] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[08:03:11] [Server thread/INFO]: [m
+[08:03:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:03:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:03:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:03:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:03:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3548ms)
+[08:03:13] [Server thread/INFO]: [CustomEnderChest] Enabling CustomEnderChest v1.13.1
+[08:03:13] [Server thread/INFO]: [CustomEnderChest] Incompatible server version detected: 1.19.2 . Running into 1.16 API mode.
+[08:03:13] [Server thread/INFO]: [CustomEnderChest] Loading the config file...
+[08:03:13] [Server thread/INFO]: [CustomEnderChest] Config loaded successfully!
+[08:03:13] [Server thread/INFO]: [CustomEnderChest] Using FlatFile system for data. IMPORTANT! We recommend MySQL.
+[08:03:13] [Server thread/INFO]: [CustomEnderChest] CustomEnderChest loaded successfully!
+[08:03:13] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[08:03:13] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[08:03:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[08:03:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:03:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[08:03:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[08:03:13] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[08:03:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[08:03:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:03:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[08:03:19] [Server thread/INFO]: [WorldEdit] ====================================================
+[08:03:19] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[08:03:19] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[08:03:19] [Server thread/INFO]: [WorldEdit]   
+[08:03:19] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[08:03:19] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[08:03:19] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[08:03:19] [Server thread/INFO]: [WorldEdit]   
+[08:03:19] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[08:03:19] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[08:03:19] [Server thread/INFO]: [WorldEdit]   
+[08:03:19] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[08:03:19] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[08:03:19] [Server thread/INFO]: [WorldEdit]   
+[08:03:19] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[08:03:19] [Server thread/INFO]: [WorldEdit] ====================================================
+[08:03:19] [Server thread/INFO]: Preparing level "World"
+[08:03:19] [Server thread/INFO]: -------- World Settings For [World] --------
+[08:03:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:03:19] [Server thread/INFO]: Max TNT Explosions: 100
+[08:03:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:03:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:03:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:03:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[08:03:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:03:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[08:03:19] [Server thread/INFO]: Mob Spawn Range: 6
+[08:03:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:03:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:03:19] [Server thread/INFO]: View Distance: 10
+[08:03:19] [Server thread/INFO]: Simulation Distance: 10
+[08:03:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:03:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:03:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:03:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:03:21] [Server thread/INFO]: -------- World Settings For [World_nether] --------
+[08:03:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:03:21] [Server thread/INFO]: Max TNT Explosions: 100
+[08:03:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:03:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:03:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:03:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[08:03:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:03:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[08:03:21] [Server thread/INFO]: Mob Spawn Range: 6
+[08:03:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:03:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:03:21] [Server thread/INFO]: View Distance: 10
+[08:03:21] [Server thread/INFO]: Simulation Distance: 10
+[08:03:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:03:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:03:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:03:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:03:52] [Server thread/INFO]: -------- World Settings For [World_the_end] --------
+[08:03:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[08:03:52] [Server thread/INFO]: Max TNT Explosions: 100
+[08:03:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:03:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:03:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Potato Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[08:03:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[08:03:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:03:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[08:03:52] [Server thread/INFO]: Mob Spawn Range: 6
+[08:03:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:03:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:03:52] [Server thread/INFO]: View Distance: 10
+[08:03:52] [Server thread/INFO]: Simulation Distance: 10
+[08:03:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:03:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[08:03:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:03:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:03:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:06] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[08:04:07] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[08:04:08] [Server thread/INFO]: Time elapsed: 15373 ms
+[08:04:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:16] [Server thread/INFO]: Time elapsed: 8149 ms
+[08:04:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:04:21] [Server thread/INFO]: Time elapsed: 5073 ms
+[08:04:21] [Server thread/INFO]: [PlayerHeads] Enabling PlayerHeads v4.5.0
+[08:04:21] [Server thread/INFO]: [PlayerHeads] Internal plugin locale: 
+[08:04:21] [Server thread/INFO]: [PlayerHeads] Environment locale: en_US / en-US
+[08:04:22] [Server thread/INFO]: [PlayerHeads] Compatibility-Provider: 1.13
+[08:04:22] [Server thread/INFO]: [DropSpawner] Enabling DropSpawner v1.0.3
+[08:04:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
+[08:04:22] [Server thread/INFO]: [Kit] Enabling Kit v1.0
+[08:04:22] [Server thread/INFO]: §4le plugin Kit est demarer 
+[08:04:22] [Server thread/INFO]:  jour :13
+[08:04:22] [Server thread/INFO]: 
+[08:04:22] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.218-SNAPSHOT
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: config.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: config.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: config.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
+[08:04:22] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: advanced.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: advanced.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: advanced.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
+[08:04:22] [Server thread/INFO]: [mcMMO] Platform String: 1.19.2-R0.1-SNAPSHOT
+[08:04:22] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.19.2
+[08:04:22] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[08:04:22] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: persistent_data.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: persistent_data.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: persistent_data.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [Debug] No errors found in persistent_data.yml!
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: upgrades_overhaul.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: upgrades_overhaul.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: upgrades_overhaul.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: treasures.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: treasures.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: treasures.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: fishing_treasures.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: fishing_treasures.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: fishing_treasures.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
+[08:04:22] [Server thread/INFO]: [mcMMO] Loading mcMMO potions.yml File...
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: coreskills.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: coreskills.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: coreskills.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Initializing config: sounds.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: sounds.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] [config] Config initialized: sounds.yml
+[08:04:22] [Server thread/INFO]: [mcMMO] Loading mcMMO skillranks.yml File...
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Initializing config: child.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: child.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Config initialized: child.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Initializing config: repair.vanilla.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: repair.vanilla.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Config initialized: repair.vanilla.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Initializing config: salvage.vanilla.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: salvage.vanilla.yml
+[08:04:28] [Server thread/INFO]: [mcMMO] [config] Config initialized: salvage.vanilla.yml
+[08:04:29] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
+[08:04:29] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[08:04:29] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[08:04:29] [Server thread/INFO]: [mcMMO] [config] Initializing config: experience.yml
+[08:04:29] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: experience.yml
+[08:04:29] [Server thread/INFO]: [mcMMO] [config] Config initialized: experience.yml
+[08:04:29] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[08:04:30] [Server thread/INFO]: [mcMMO] [config] Initializing config: chat.yml
+[08:04:30] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: chat.yml
+[08:04:30] [Server thread/INFO]: [mcMMO] [config] Config initialized: chat.yml
+[08:04:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.2
+[08:04:30] [Server thread/INFO]: [first] Enabling first v1.0
+[08:04:30] [Server thread/INFO]: §4le plugin est demarer
+[08:04:30] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.3
+[08:04:30] [Server thread/INFO]: [StackMob] StackMob v5.8.3 by antiPerson and contributors.
+[08:04:30] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
+[08:04:30] [Server thread/INFO]: [StackMob] Loading config files...
+[08:04:30] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
+[08:04:30] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
+[08:04:30] [Server thread/WARN]: [StackMob] It has been detected that you are not using Paper (https://papermc.io).
+[08:04:30] [Server thread/WARN]: [StackMob] StackMob makes use of Paper's API, which means you're missing out on features.
+[08:04:30] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.3.0
+[08:04:30] [Thread-14/INFO]: [StackMob] A new version is currently available. (5.8.4)
+[08:04:31] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[08:04:31] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[08:04:31] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[08:04:31] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[08:04:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[08:04:31] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[08:04:31] [Server thread/INFO]: [dynmap] Enabling dynmap v3.4-beta-5-806
+[08:04:32] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[08:04:32] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.40 for access control
+[08:04:32] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[08:04:38] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[08:04:38] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[08:04:38] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[08:04:38] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[08:04:38] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[08:04:39] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:2308
+[08:04:39] [Server thread/INFO]: [dynmap] version 3.4-beta-5-806 is enabled - core version 3.4-beta-5-806
+[08:04:39] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[08:04:39] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://twitter.com/Dynmap
+[08:04:39] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[08:04:39] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[08:04:39] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'World'.
+[08:04:39] [Server thread/INFO]: [dynmap] World 'World_nether' disabled
+[08:04:39] [Server thread/INFO]: [dynmap] World 'World_the_end' disabled
+[08:04:39] [Server thread/INFO]: [dynmap] Enabled
+[08:04:39] [Server thread/INFO]: [VotingPlugin] Enabling VotingPlugin v6.9.4
+[08:04:39] [Server thread/WARN]: [VotingPlugin] Detected no voting sites, this may mean something isn't properly setup
+[08:04:40] [Server thread/INFO]: [VotingPlugin] Giving VotingPlugin.Player permission by default, can be disabled in the config
+[08:04:40] [Server thread/WARN]: [VotingPlugin] No VotifierEvent found, install Votifier, NuVotifier, or another Votifier plugin
+[08:04:40] [Server thread/INFO]: [VotingPlugin] Enabled VotingPlugin 6.9.4
+[08:04:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[08:04:40] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[08:04:41] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[08:04:41] [Server thread/INFO]: No kits found to migrate.
+[08:04:41] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
+[08:04:41] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[08:04:41] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
+[08:04:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[08:04:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[08:04:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[08:04:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525)
+[08:04:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439)
+[08:04:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584)
+[08:04:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403)
+[08:04:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
+[08:04:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968)
+[08:04:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293)
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[08:04:41] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
+[08:04:41] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
+[08:04:41] [Server thread/WARN]: 	... 15 more
+[08:04:41] [Server thread/INFO]: Loaded 36926 items from items.json.
+[08:04:41] [Server thread/INFO]: Using locale en_US
+[08:04:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:04:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:04:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[08:04:41] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[08:04:41] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.4
+[08:04:41] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[08:04:41] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.0
+[08:04:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 2.0 blocks, and timer delay of 20.
+[08:04:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[08:04:42] [Server thread/INFO]: [WorldBorder] [CONFIG] World "World" has border radius 1023x511 at X: 0.0 Z: 0.0 (wrapping)
+[08:04:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Successfully hooked into DynMap for the ability to display borders.
+[08:04:42] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 11.0 Y: 67.0 Z: -118.0
+[08:04:42] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.2
+[08:04:42] [Server thread/INFO]: [Factions] Enabling Factions v1.6.9.5-3.0.5-RC
+[08:04:42] [Server thread/INFO]: [0;33;22m[SaberFactions] === ENABLE START ===[m
+[08:04:42] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 12 players[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 5 Factions[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Loading board from disk[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 28 board locations[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Economy integration through Vault plugin successful.[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] CoreX Integration Starting![m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Loaded 1 timers into list![m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Minecraft Version 1.19 found.[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] Internal Factions Top Being Used. NOTE: Very Basic[m
+[08:04:43] [Server thread/INFO]: [0;33;22m[SaberFactions] === ENABLE DONE (Took 954ms) ===[m
+[08:04:43] [Server thread/INFO]: [TabList] Enabling TabList v5.6.3
+[08:04:43] [Server thread/INFO]: [0;33;22m[[0;35;22mTab[0;31;1mList[0;33;22m][0;37;22m >[0;32;1m Enabled[0;33;22m v5.6.3[0;32;1m (106ms)[m
+[08:04:43] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.4
+[08:04:43] [Server thread/WARN]: [EssentialsDiscord] Loaded class org.slf4j.impl.StaticLoggerBinder from VotingPlugin v6.9.4 which is not a depend or softdepend of this plugin.
+[08:04:43] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[08:04:43] [Server thread/INFO]: Attempting to login to Discord...
+[08:04:43] [Thread-35/INFO]: [TabList] -------------
+[08:04:43] [Thread-35/INFO]: [TabList] New update is available for TabList
+[08:04:43] [Thread-35/INFO]: [TabList] Your version: 5.6.3, New version 5.6.4
+[08:04:43] [Thread-35/INFO]: [TabList] Download: https://www.spigotmc.org/resources/46229/
+[08:04:43] [Thread-35/INFO]: [TabList] 
+[08:04:43] [Thread-35/INFO]: [TabList] Always consider upgrading to the latest version, which may include fixes.
+[08:04:43] [Thread-35/INFO]: [TabList] 
+[08:04:43] [Thread-35/INFO]: [TabList] To disable update checking, go to the config file
+[08:04:43] [Thread-35/INFO]: [TabList] -------------
+[08:04:44] [Server thread/INFO]: Login Successful!
+[08:04:44] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[08:04:45] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[08:04:45] [Server thread/INFO]: Successfully logged in as bot essential#5387
+[08:04:47] [Server thread/INFO]: Done (88.098s)! For help, type "help"
+[08:04:47] [Server thread/INFO]: Starting GS4 status listener
+[08:04:47] [Server thread/INFO]: Thread Query Listener started
+[08:04:47] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[08:04:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1/2 (760)
+[08:04:47] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[08:04:47] [Craft Scheduler Thread - 4/INFO]: [Essentials] §6Fetching version information...
+[08:04:47] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[08:04:47] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[08:04:47] [Server thread/INFO]: [VotingPlugin] Successfully hooked into vault economy!
+[08:04:47] [Server thread/INFO]: [VotingPlugin] Hooked into vault permissions
+[08:04:47] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[08:04:47] [Craft Scheduler Thread - 6/INFO]: [VotingPlugin] VotingPlugin is up to date! Version: 6.9.4
+[08:04:47] [Craft Scheduler Thread - 4/WARN]: [Essentials] §4There is a new EssentialsX version available for download: §c2.19.7§4.
+[08:04:47] [Craft Scheduler Thread - 4/WARN]: [Essentials] §4Download it here:§c https://essentialsx.net/downloads.html?branch=stable
+[08:04:48] [Server thread/INFO]: [Factions] Balance for §2Wilderness had money: 0.0 found: 0.0 acc: faction-0
+[08:04:48] [Server thread/INFO]: [Factions] Balance for Terrier had money: 0.0 found: 0.0 acc: faction-1
+[08:04:48] [Server thread/INFO]: [Factions] Balance for FarmLand had money: 383.0
+[08:04:48] [Server thread/INFO]: [Factions] Balance for §6Safezone had money: 0.0 found: 0.0 acc: faction--1
+[08:04:48] [Server thread/INFO]: [Factions] Balance for §4Warzone had money: 0.0 found: 0.0 acc: faction--2
+[08:34:47] [Craft Scheduler Thread - 12/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[08:34:47] [Craft Scheduler Thread - 14/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[08:34:47] [Craft Scheduler Thread - 13/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[08:34:47] [Craft Scheduler Thread - 18/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[08:34:47] [Craft Scheduler Thread - 17/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[08:34:47] [Craft Scheduler Thread - 16/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[08:34:47] [Craft Scheduler Thread - 15/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 24/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 27/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 26/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 25/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 23/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 21/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[09:04:47] [Craft Scheduler Thread - 22/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 34/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 38/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 37/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 35/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 33/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 32/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[09:34:47] [Craft Scheduler Thread - 36/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 47/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 49/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 48/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 43/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 46/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 45/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[10:04:47] [Craft Scheduler Thread - 44/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 59/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 62/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 61/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 60/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 56/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 57/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[10:34:47] [Craft Scheduler Thread - 58/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 73/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 76/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 75/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 71/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 70/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 74/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:04:47] [Craft Scheduler Thread - 72/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 81/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 84/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 85/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 83/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 82/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 80/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[11:34:47] [Craft Scheduler Thread - 79/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 99/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 101/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 100/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 95/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 96/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 98/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[12:04:47] [Craft Scheduler Thread - 97/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 113/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 117/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 116/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 115/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 112/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 114/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[12:34:47] [Craft Scheduler Thread - 111/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 128/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 132/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 131/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 130/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 127/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 129/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[13:04:47] [Craft Scheduler Thread - 126/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 140/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 143/INFO]: [0;33;22m[SaberFactions] Hydrolien was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 142/INFO]: [0;33;22m[SaberFactions] VegaMissyl was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 137/INFO]: [0;33;22m[SaberFactions] kyfien was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 141/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 138/INFO]: [0;33;22m[SaberFactions] eureur7 was going to be auto-removed but was set not to.[m
+[13:34:47] [Craft Scheduler Thread - 139/INFO]: [0;33;22m[SaberFactions] PetitMulot was going to be auto-removed but was set not to.[m
+[13:55:59] [Server thread/INFO]: Stopping the server
+[13:55:59] [Server thread/INFO]: Stopping server
+[13:55:59] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.4
+[13:55:59] [Server thread/INFO]: Waiting for 1 bucket(s) to finish. Average queue size of 0 requests
+[13:55:59] [Server thread/INFO]: [TabList] Disabling TabList v5.6.3
+[13:55:59] [Server thread/INFO]: [Factions] Disabling Factions v1.6.9.5-3.0.5-RC
+[13:55:59] [Server thread/INFO]: [0;33;22m[SaberFactions] ===== Shutdown Start =====[m
+[13:55:59] [Server thread/INFO]: [0;33;22m[SaberFactions] Shutdown Successful![m
+[13:55:59] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v2.3.2
+[13:55:59] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.9.0
+[13:55:59] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[13:55:59] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.4
+[13:55:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
+[13:55:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:55:59] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[13:55:59] [Server thread/INFO]: [VotingPlugin] Disabling VotingPlugin v6.9.4
+[13:55:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[13:55:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:55:59] [Server thread/INFO]: [dynmap] Disabling dynmap v3.4-beta-5-806
+[13:55:59] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[13:55:59] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[13:56:00] [Server thread/INFO]: [dynmap] Disabled
+[13:56:00] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[13:56:00] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:56:00] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.3.0
+[13:56:00] [Server thread/INFO]: [CustomEnderChest] Disabling CustomEnderChest v1.13.1
+[13:56:00] [Server thread/INFO]: [CustomEnderChest] Cleaning internal data...
+[13:56:00] [Server thread/INFO]: [CustomEnderChest] CustomEnderChest is disabled!
+[13:56:00] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.3
+[13:56:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[13:56:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:56:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:56:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:56:00] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b600
+[13:56:00] [Server thread/INFO]: [first] Disabling first v1.0
+[13:56:00] [Server thread/INFO]: §4le plugin s'arete
+[13:56:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.2
+[13:56:00] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.218-SNAPSHOT
+[13:56:00] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[13:56:00] [Server thread/INFO]: [Kit] Disabling Kit v1.0
+[13:56:00] [Server thread/INFO]: §4le plugin Kit s'arete
+[13:56:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.2
+[13:56:00] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:56:00] [Server thread/INFO]: [DropSpawner] Disabling DropSpawner v1.0.3
+[13:56:00] [Server thread/INFO]: [PlayerHeads] Disabling PlayerHeads v4.5.0
+[13:56:00] [Server thread/INFO]: Saving players
+[13:56:00] [Server thread/INFO]: Saving worlds
+[13:56:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[13:56:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_nether]'/minecraft:the_nether
+[13:56:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_the_end]'/minecraft:the_end
+[13:56:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[13:56:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:56:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:56:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:56:09] [Server thread/INFO]: Thread Query Listener stopped

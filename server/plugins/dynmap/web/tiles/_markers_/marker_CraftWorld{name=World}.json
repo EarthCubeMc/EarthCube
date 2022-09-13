@@ -1,0 +1,18 @@
+{"sets": {"factions_markerset": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Factions","markers": {"factions_home_2": {"markup": false,"x": -485.29,"icon": "greenflag","y": -40.00,"dim": "16x16","z": 22.64,"label": "FarmLand","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">FarmLand<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Faction neutre, faction des \u00E9changes, nous ne ferons que farme, si vous nous attaquer gare au wither<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> kyfien<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 383.00<br \/>\n<br \/>\n<\/div><\/div>"}
+}
+,"lines": {}
+,"layerprio": 2}
+,"worldborder.markerset": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "WorldBorder","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1663070157203}

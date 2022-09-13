@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 86.242.203.245
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663003498602
+  login: 1663001980958
+money: '0'
+last-account-name: ikiler6
+logoutlocation:
+  world: 44d0f72b-db6a-4657-8209-60a86e480616
+  world-name: World
+  x: 79.14696948498604
+  y: 66.0
+  z: -117.85479604265947
+  yaw: 129.3183135986328
+  pitch: 13.762088775634766

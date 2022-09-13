@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1662915143936
+  lastteleport: 1662988880249
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1662915452231
-  login: 1662914458745
-money: '0'
+  logout: 1662989411797
+  login: 1662980072457
+money: '40.0'
 last-account-name: VegaMissyl
 lastlocation:
   world: 44d0f72b-db6a-4657-8209-60a86e480616
   world-name: World
-  x: -395.5115842995386
-  y: 109.11323349409518
-  z: -54.55947228143007
-  yaw: -69.17779541015625
-  pitch: 24.610841751098633
+  x: -737.8961664834029
+  y: 71.0
+  z: -335.69999998807907
+  yaw: 155.6671142578125
+  pitch: 20.700546264648438
 logoutlocation:
   world: 44d0f72b-db6a-4657-8209-60a86e480616
   world-name: World
-  x: 31.140391021060907
-  y: 86.78525990841601
-  z: -168.81661823060156
-  yaw: 135.74456787109375
-  pitch: 18.545738220214844
+  x: 482.3823525390624
+  y: 77.12796228151956
+  z: -410.3004679284776
+  yaw: 8.88177490234375
+  pitch: 16.105541229248047

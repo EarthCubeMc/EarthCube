@@ -11,7 +11,7 @@ coords:
   vert: {}
   rouge: {}
   spawn:
-    x: -934
-    y: 63
-    z: -488
+    x: 0
+    y: 316
+    z: 0
   event: {}

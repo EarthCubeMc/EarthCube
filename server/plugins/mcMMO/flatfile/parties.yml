@@ -14,19 +14,3 @@ kav:
     MISC: true
   Members:
   - 12705a1b-56b6-4c3e-a6d0-209371f067b6|PetitMulot
-k:
-  Leader: 12705a1b-56b6-4c3e-a6d0-209371f067b6|PetitMulot
-  Locked: true
-  Level: 0
-  Xp: 3225
-  Ally: ''
-  ExpShareMode: NONE
-  ItemShareMode: NONE
-  ItemShareType:
-    LOOT: true
-    MINING: true
-    HERBALISM: true
-    WOODCUTTING: true
-    MISC: true
-  Members:
-  - 12705a1b-56b6-4c3e-a6d0-209371f067b6|PetitMulot

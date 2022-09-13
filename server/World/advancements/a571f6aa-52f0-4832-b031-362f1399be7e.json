@@ -1,0 +1,144 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2022-09-12 19:40:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-09-12 19:39:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2022-09-12 19:42:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2022-09-12 19:37:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-09-12 19:39:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-09-12 19:39:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-09-12 19:39:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2022-09-12 19:42:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-09-12 19:39:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2022-09-12 19:40:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2022-09-12 19:39:24 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-09-12 19:40:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-09-12 19:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2022-09-12 19:38:15 +0200",
+      "minecraft:taiga": "2022-09-12 19:38:43 +0200",
+      "minecraft:badlands": "2022-09-12 19:50:19 +0200",
+      "minecraft:beach": "2022-09-12 19:41:10 +0200",
+      "minecraft:sparse_jungle": "2022-09-12 19:39:40 +0200",
+      "minecraft:lukewarm_ocean": "2022-09-12 19:41:36 +0200",
+      "minecraft:river": "2022-09-12 19:39:06 +0200",
+      "minecraft:snowy_plains": "2022-09-12 19:38:07 +0200",
+      "minecraft:swamp": "2022-09-12 19:38:54 +0200",
+      "minecraft:cold_ocean": "2022-09-12 19:37:30 +0200",
+      "minecraft:frozen_ocean": "2022-09-12 19:37:08 +0200",
+      "minecraft:desert": "2022-09-12 19:46:52 +0200",
+      "minecraft:jungle": "2022-09-12 19:39:38 +0200",
+      "minecraft:snowy_beach": "2022-09-12 19:38:29 +0200",
+      "minecraft:warm_ocean": "2022-09-12 19:41:08 +0200",
+      "minecraft:savanna": "2022-09-12 19:39:04 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2022-09-12 19:42:09 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

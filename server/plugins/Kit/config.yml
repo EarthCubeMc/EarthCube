@@ -1,5 +1,5 @@
 config:
-  date: 12
+  date: 13
   aide:
     rank: '&4/kit'
     shop: '&4shop link isn''t set /kit setshoplink'
@@ -30,39 +30,81 @@ config:
         PetitMulot: 0
         Hydrolien: 0
         VegaMissyl: 0
+        kyfien: 0
+        ikiler6: 0
+        CaptainSalade: 0
+        MDALI93: 0
+        ZeeniixYT: 0
       vipP:
         eureur7: 2
         PetitMulot: 0
         Hydrolien: 0
         VegaMissyl: 0
+        kyfien: 0
+        ikiler6: 0
+        CaptainSalade: 0
+        MDALI93: 0
+        ZeeniixYT: 0
       youtube:
         eureur7: 2
         PetitMulot: 0
         Hydrolien: 0
         VegaMissyl: 0
+        kyfien: 0
+        ikiler6: 0
+        CaptainSalade: 0
+        MDALI93: 0
+        ZeeniixYT: 0
       beginner:
         eureur7: 2
         PetitMulot: 0
         Hydrolien: 0
         VegaMissyl: 0
+        kyfien: 0
+        ikiler6: 0
+        CaptainSalade: 0
+        MDALI93: 0
+        ZeeniixYT: 0
     weekly:
       vipW:
         eureur7: 0
         PetitMulot: -7
         Hydrolien: -7
         VegaMissyl: -7
+        kyfien: -7
+        ikiler6: -7
+        CaptainSalade: -7
+        MDALI93: -7
+        ZeeniixYT: -7
       vipPW:
         eureur7: -7
         PetitMulot: -7
         Hydrolien: -7
         VegaMissyl: -7
+        kyfien: -7
+        ikiler6: -7
+        CaptainSalade: -7
+        MDALI93: -7
+        ZeeniixYT: -7
       youtubeW:
         eureur7: -7
         PetitMulot: -7
         Hydrolien: -7
         VegaMissyl: -7
+        kyfien: -7
+        ikiler6: -7
+        CaptainSalade: -7
+        MDALI93: -7
+        ZeeniixYT: -7
       beginnerW:
         eureur7: -7
         PetitMulot: -7
         Hydrolien: -7
         VegaMissyl: -7
+        kyfien: -7
+        ikiler6: -7
+        CaptainSalade: -7
+        MDALI93: -7
+        ZeeniixYT: -7
+    t:
+      eureur7: 1663000879
