@@ -43,7 +43,7 @@ header:
 footer:
 - ""
 - "&e&lPlayers:&6 %online-players%&7/&6%max-players%"
-- "&7<28> IP&7:&2 &nearthcube.mine.fun&7 <28>\n\n&5&m=========================="
+- "&7<28> IP&7:&2 &nplay.earthcube.fun&7 <28>\n\n&5&m=========================="
 
 # Defines per world tablist for different worlds
 # You can separate worlds with ", " to show tablist in that worlds
