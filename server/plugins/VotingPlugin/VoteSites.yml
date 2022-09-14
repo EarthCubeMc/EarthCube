@@ -190,7 +190,7 @@ VoteSites:
         Player: '&aThanks for voting on %ServiceSite%!'
       Items:
         item1:
-          Material: GOLD
+          Material: GOLD_INGOT
           Amount: 4
 
   ServeurPrive:
@@ -206,7 +206,7 @@ VoteSites:
         Player: '&aThanks for voting on %ServiceSite%!'
       Items:
         item1:
-          Material: GOLD
+          Material: GOLD_INGOT
           Amount: 4
 
   Serveurs Minecraft:
@@ -222,24 +222,24 @@ VoteSites:
         Player: '&aThanks for voting on %ServiceSite%!'
       Items:
         item1:
-          Material: GOLD
+          Material: GOLD_INGOT
           Amount: 4
 
-    Serveur Minecraft Vote:
-      Enabled: true
-      ServiceSite: Serveur Minecraft Vote
-      VoteURL: https://serveur-minecraft-vote.fr/serveurs/earthcube.837/vote
-      VoteDelay: 1.5
-      DisplayItem:
-        Material: DIAMOND
-        Amount: 5
-      Rewards:
-        Messages:
-          Player: '&aThanks for voting on %ServiceSite%!'
-        Items:
-          item1:
-            Material: GOLD
-            Amount: 4
+  Serveur Minecraft Vote:
+    Enabled: true
+    ServiceSite: Serveur Minecraft Vote
+    VoteURL: https://serveur-minecraft-vote.fr/serveurs/earthcube.837/vote
+    VoteDelay: 1.5
+    DisplayItem:
+      Material: DIAMOND
+      Amount: 5
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+      Items:
+        item1:
+          Material: GOLD_INGOT
+          Amount: 4
 
 # Reward for any site
 # Similar to AnySiteReward
