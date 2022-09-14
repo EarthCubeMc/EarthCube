@@ -258,8 +258,6 @@
     "ARMOR_STAND"
   ],
   "territoryBypassProtectedMaterials": [
-    "CHEST",
-    "TRAPPED_CHEST",
     "COOKIE"
   ],
   "enableClickToClaim": true,
