@@ -258,8 +258,8 @@
     "ARMOR_STAND"
   ],
   "territoryBypassProtectedMaterials": [
-    "ENCHANTING_TABLE"
-    "ENDER_CHEST"
+    "ENCHANTING_TABLE",
+    "ENDER_CHEST",
     "COOKIE"
   ],
   "enableClickToClaim": true,
