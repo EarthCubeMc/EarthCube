@@ -1,11 +1,11 @@
 # Should CombatLogX close a player's inventory when they are first tagged into combat?
 # Default: true
-close: true
+close: false
 
 # Should CombatLogX close a player's inventory when they are tagged while already in combat?
-close-on-retag: true
+close-on-retag: false
 
 # Should CombatLogX prevent players from opening new inventories while they are tagged?
 # This does not affect client-side-only inventories.
 # Default: true
-prevent-opening: true
+prevent-opening: false

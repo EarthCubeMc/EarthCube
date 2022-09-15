@@ -1,6 +1,6 @@
 # This option is here to quickly toggle this expansion on a live server that must stay online.
 # We recommend that you remove the Action Bar expansion jar if you will not use the feature.
-enabled: true
+enabled: false
 
 # Scale is the amount of symbols for the {bars} placeholder.
 scale: 15

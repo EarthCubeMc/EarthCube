@@ -7,23 +7,14 @@ delay-after-combat: 0
 # DO NOT forget the `/` in front of the commands.
 # You can add "*" to the list to block ALL commands.
 blocked-command-list:
-  - "/tp"
-  - "/fly"
-  - "/gamemode"
-  - "/gm"
-  - "//wand"
-  - "/spawn"
-  - "/home"
-  - "/sethome"
-  - "/msg"
+  - "*"
 
 # Which commands are allowed during combat?
 # This list is used if you want to un-block a command that is blocked the the other list.
 # You can add "*" to the list to allow ALL commands.
 #
 # Extra Information: This list overrides the blocked command list
-allowed-command-list:
-  - "/msg SirBlobman"
+allowed-command-list: []
 
 # Players with this permission will have every command unblocked.
 # The permission is not given to OPs by default, you must set it manually.

@@ -1,10 +1,10 @@
 # Should players be prevented from using nether/end portals during combat?
 # Default: true
-prevent-portals: true
+prevent-portals: false
 
 # Should players be prevented from teleporting away during combat?
 # Default: true
-prevent-teleportation: true
+prevent-teleportation: false
 
 # Are there any reasons that a teleport should not be cancelled?
 # You can find a list of valid values in the link below:
