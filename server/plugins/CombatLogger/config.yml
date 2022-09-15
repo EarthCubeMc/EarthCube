@@ -7,8 +7,7 @@ disable-flight-on-combat: true
 blacklisted-worlds: []
 
 # List of blacklisted commands that cannot be used in combat
-blacklisted-commands:
-  - f home
+blacklisted-commands: []
 
 # Message issued when player uses a blacklisted command in combat
 blacklisted-command-message: '&cYou cannot run this command while in combat!'
