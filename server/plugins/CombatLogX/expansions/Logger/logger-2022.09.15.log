@@ -1,0 +1,32 @@
+[September 15, 2022 17:01:34.758PM CEST] EntityDamageByEntityEvent was triggered by damaged WANDERING_TRADER Wandering Trader, damager ZOMBIE Zombie and cancelled false.
+[September 15, 2022 17:02:11.174PM CEST] EntityDamageByEntityEvent was triggered by damaged WANDERING_TRADER Wandering Trader, damager ZOMBIE Zombie and cancelled false.
+[September 15, 2022 17:02:13.081PM CEST] EntityDamageByEntityEvent was triggered by damaged WANDERING_TRADER Wandering Trader, damager ZOMBIE Zombie and cancelled false.
+[September 15, 2022 17:02:13.577PM CEST] EntityDamageByEntityEvent was triggered by damaged WANDERING_TRADER Wandering Trader, damager ZOMBIE Zombie and cancelled false.
+[September 15, 2022 17:02:14.278PM CEST] EntityDamageByEntityEvent was triggered by damaged WANDERING_TRADER Wandering Trader, damager ZOMBIE Zombie and cancelled false.
+[September 15, 2022 17:02:15.278PM CEST] EntityDamageByEntityEvent was triggered by damaged WANDERING_TRADER Wandering Trader, damager ZOMBIE Zombie and cancelled false.
+[September 15, 2022 17:03:01.250PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type UNKNOWN, reason UNKNOWN, and cancelled false.
+[September 15, 2022 17:03:01.291PM CEST] PlayerTagEvent was triggered on {player_name} by {enemy_name} with type UNKNOWN and reason UNKNOWN.
+[September 15, 2022 17:03:11.525PM CEST] PlayerUntagEvent was triggered on {player_name} with reason {untag_reason} and expire set to {was_expire}.
+[September 15, 2022 17:03:11.527PM CEST] PlayerUntagEvent was triggered on {player_name} with reason EXPIRE and expire set to true.
+[September 15, 2022 17:03:29.278PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type UNKNOWN, reason UNKNOWN, and cancelled false.
+[September 15, 2022 17:03:29.281PM CEST] PlayerTagEvent was triggered on {player_name} by {enemy_name} with type UNKNOWN and reason UNKNOWN.
+[September 15, 2022 17:04:20.731PM CEST] EntityDamageByEntityEvent was triggered by damaged PLAYER PetitMulot, damager ARROW Arrow and cancelled false.
+[September 15, 2022 17:04:20.733PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type MOB, reason ATTACKED, and cancelled false.
+[September 15, 2022 17:04:20.734PM CEST] PlayerReTagEvent was triggered on {player_name} by {enemy_name} with type MOB and reason ATTACKED.
+[September 15, 2022 17:04:22.001PM CEST] EntityDamageByEntityEvent was triggered by damaged SKELETON §4❤❤❤❤❤❤§7❤❤❤❤, damager PLAYER PetitMulot and cancelled false.
+[September 15, 2022 17:04:22.002PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type MOB, reason ATTACKER, and cancelled false.
+[September 15, 2022 17:04:22.003PM CEST] PlayerReTagEvent was triggered on {player_name} by {enemy_name} with type MOB and reason ATTACKER.
+[September 15, 2022 17:04:22.626PM CEST] EntityDamageByEntityEvent was triggered by damaged PLAYER PetitMulot, damager ARROW Arrow and cancelled false.
+[September 15, 2022 17:04:22.627PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type MOB, reason ATTACKED, and cancelled false.
+[September 15, 2022 17:04:22.628PM CEST] PlayerReTagEvent was triggered on {player_name} by {enemy_name} with type MOB and reason ATTACKED.
+[September 15, 2022 17:04:24.676PM CEST] EntityDamageByEntityEvent was triggered by damaged PLAYER PetitMulot, damager ARROW Arrow and cancelled false.
+[September 15, 2022 17:04:24.677PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type MOB, reason ATTACKED, and cancelled false.
+[September 15, 2022 17:04:24.677PM CEST] PlayerReTagEvent was triggered on {player_name} by {enemy_name} with type MOB and reason ATTACKED.
+[September 15, 2022 17:04:25.587PM CEST] EntityDamageByEntityEvent was triggered by damaged SKELETON §4❤❤§7❤❤❤❤❤❤❤❤, damager PLAYER PetitMulot and cancelled false.
+[September 15, 2022 17:04:25.588PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type MOB, reason ATTACKER, and cancelled false.
+[September 15, 2022 17:04:25.589PM CEST] PlayerReTagEvent was triggered on {player_name} by {enemy_name} with type MOB and reason ATTACKER.
+[September 15, 2022 17:04:26.392PM CEST] EntityDamageByEntityEvent was triggered by damaged SKELETON Skeleton, damager PLAYER PetitMulot and cancelled false.
+[September 15, 2022 17:04:26.392PM CEST] PlayerPreTagEvent was triggered on {player_name} by {enemy_name} with type MOB, reason ATTACKER, and cancelled false.
+[September 15, 2022 17:04:26.393PM CEST] PlayerReTagEvent was triggered on {player_name} by {enemy_name} with type MOB and reason ATTACKER.
+[September 15, 2022 17:05:09.523PM CEST] PlayerUntagEvent was triggered on {player_name} with reason {untag_reason} and expire set to {was_expire}.
+[September 15, 2022 17:05:09.523PM CEST] PlayerUntagEvent was triggered on {player_name} with reason EXPIRE and expire set to true.
