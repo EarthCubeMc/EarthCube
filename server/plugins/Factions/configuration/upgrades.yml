@@ -8,7 +8,7 @@
 
 fupgrades:
   Enabled: true
-  usePointsAsCurrency: true
+  usePointsAsCurrency: false
   MainMenu:
     Rows: 5
     Title: '&8&l{faction}''s Upgrade Menu'
