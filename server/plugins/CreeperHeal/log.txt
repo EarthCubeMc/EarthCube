@@ -10,3 +10,8 @@
 18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_the_end/advanced.yml
 18:21:17 [INFO] [CreeperHeal] Defaults loaded for file plugins/CreeperHeal/World_the_end/grief.yml
 18:25:06 [INFO] Successfully hooked into Factions
+22:56:22 [INFO] Successfully hooked into Factions
+11:15:47 [INFO] Successfully hooked into Factions
+15:56:46 [INFO] Successfully hooked into Factions
+16:46:35 [INFO] Successfully hooked into Factions
+17:20:33 [INFO] Successfully hooked into Factions

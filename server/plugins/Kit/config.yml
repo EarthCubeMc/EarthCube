@@ -1,0 +1,1418 @@
+config:
+  date: 15
+  aide:
+    rank: '&4/kit'
+    shop: '&4shop link isn''t set /kit setshoplink'
+  kit:
+    list:
+    - kit
+    - vip
+    - vipPlus
+    - youtube
+    - débutant
+    save:
+      kit:
+        len: 27
+        item:
+          '10':
+            item: WHITE_WOOL
+            name: vip
+            lore:
+            - §7kit
+            size: 1
+          '12':
+            item: WHITE_WOOL
+            name: vipPlus
+            lore:
+            - §7kit
+            size: 1
+          '14':
+            item: WHITE_WOOL
+            name: youtube
+            lore:
+            - §7kit
+            size: 1
+          '16':
+            item: WHITE_WOOL
+            name: débutant
+            lore:
+            - §7kit
+            size: 1
+      vip:
+        time: 604800
+        len: 45
+        item:
+          '39':
+            item: DIAMOND_HELMET
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 39
+            size: 1
+            enchants:
+            - protection:2
+          '38':
+            item: DIAMOND_CHESTPLATE
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 38
+            size: 1
+            enchants:
+            - protection:2
+          '37':
+            item: DIAMOND_LEGGINGS
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 37
+            size: 1
+            enchants:
+            - protection:2
+          '36':
+            item: DIAMOND_BOOTS
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 36
+            size: 1
+            enchants:
+            - protection:2
+          '40':
+            item: SHIELD
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 40
+            size: 1
+            enchants:
+            - unbreaking:1
+          '0':
+            item: BOW
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 0
+            size: 1
+            enchants:
+            - power:2
+          '1':
+            item: DIAMOND_SWORD
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 1
+            size: 1
+            enchants:
+            - sharpness:2
+          '2':
+            item: DIAMOND_AXE
+            name: §bvip stuff
+            lore:
+            - ' '
+            - §bslot 2
+            size: 1
+            enchants:
+            - sharpness:2
+          '3':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 3
+            size: 1
+          '4':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 4
+            size: 1
+          '5':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 5
+            size: 1
+          '6':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 6
+            size: 1
+          '7':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 7
+            size: 1
+          '8':
+            item: COOKED_PORKCHOP
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 8
+            size: 16
+          '9':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 9
+            size: 1
+          '10':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 10
+            size: 1
+          '11':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 11
+            size: 1
+          '12':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 12
+            size: 1
+          '13':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 13
+            size: 1
+          '14':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 14
+            size: 1
+          '15':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 15
+            size: 1
+          '16':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 16
+            size: 1
+          '17':
+            item: ARROW
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 17
+            size: 32
+          '18':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 18
+            size: 1
+          '19':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 19
+            size: 1
+          '20':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 20
+            size: 1
+          '21':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 21
+            size: 1
+          '22':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 22
+            size: 1
+          '23':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 23
+            size: 1
+          '24':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 24
+            size: 1
+          '25':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 25
+            size: 1
+          '26':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 26
+            size: 1
+          '27':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 27
+            size: 1
+          '28':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 28
+            size: 1
+          '29':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 29
+            size: 1
+          '30':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 30
+            size: 1
+          '31':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 31
+            size: 1
+          '32':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 32
+            size: 1
+          '33':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 33
+            size: 1
+          '34':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 34
+            size: 1
+          '35':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 35
+            size: 1
+          '41':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 41
+            size: 1
+          '42':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 42
+            size: 1
+          '43':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 43
+            size: 1
+          '44':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 44
+            size: 1
+      vipPlus:
+        time: 604800
+        len: 45
+        item:
+          '39':
+            item: DIAMOND_HELMET
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 39
+            size: 1
+            enchants:
+            - protection:4
+            - unbreaking:3
+          '38':
+            item: DIAMOND_CHESTPLATE
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 38
+            size: 1
+            enchants:
+            - protection:4
+            - unbreaking:3
+          '37':
+            item: DIAMOND_LEGGINGS
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 37
+            size: 1
+            enchants:
+            - protection:4
+            - unbreaking:3
+          '36':
+            item: DIAMOND_BOOTS
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 36
+            size: 1
+            enchants:
+            - protection:4
+            - unbreaking:3
+          '40':
+            item: SHIELD
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 40
+            size: 1
+            enchants:
+            - unbreaking:3
+          '0':
+            item: BOW
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 0
+            size: 1
+            enchants:
+            - power:5
+            - unbreaking:3
+          '1':
+            item: DIAMOND_SWORD
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 1
+            size: 1
+            enchants:
+            - sharpness:5
+            - unbreaking:3
+          '2':
+            item: DIAMOND_AXE
+            name: §bvip+ stuff
+            lore:
+            - ' '
+            - §bslot 2
+            size: 1
+            enchants:
+            - sharpness:5
+            - unbreaking:3
+          '3':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 3
+            size: 1
+          '4':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 4
+            size: 1
+          '5':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 5
+            size: 1
+          '6':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 6
+            size: 1
+          '7':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 7
+            size: 1
+          '8':
+            item: COOKED_PORKCHOP
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 8
+            size: 32
+          '9':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 9
+            size: 1
+          '10':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 10
+            size: 1
+          '11':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 11
+            size: 1
+          '12':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 12
+            size: 1
+          '13':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 13
+            size: 1
+          '14':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 14
+            size: 1
+          '15':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 15
+            size: 1
+          '16':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 16
+            size: 1
+          '17':
+            item: ARROW
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 17
+            size: 64
+          '18':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 18
+            size: 1
+          '19':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 19
+            size: 1
+          '20':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 20
+            size: 1
+          '21':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 21
+            size: 1
+          '22':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 22
+            size: 1
+          '23':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 23
+            size: 1
+          '24':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 24
+            size: 1
+          '25':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 25
+            size: 1
+          '26':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 26
+            size: 1
+          '27':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 27
+            size: 1
+          '28':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 28
+            size: 1
+          '29':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 29
+            size: 1
+          '30':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 30
+            size: 1
+          '31':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 31
+            size: 1
+          '32':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 32
+            size: 1
+          '33':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 33
+            size: 1
+          '34':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 34
+            size: 1
+          '35':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 35
+            size: 1
+          '41':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 41
+            size: 1
+          '42':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 42
+            size: 1
+          '43':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 43
+            size: 1
+          '44':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 44
+            size: 1
+      youtube:
+        time: 604800
+        len: 45
+        item:
+          '39':
+            item: DIAMOND_HELMET
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 39
+            size: 1
+          '38':
+            item: DIAMOND_CHESTPLATE
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 38
+            size: 1
+          '37':
+            item: DIAMOND_LEGGINGS
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 37
+            size: 1
+          '36':
+            item: DIAMOND_BOOTS
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 36
+            size: 1
+          '40':
+            item: SHIELD
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 40
+            size: 1
+          '0':
+            item: BOW
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 0
+            size: 1
+          '1':
+            item: DIAMOND_SWORD
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 1
+            size: 1
+          '2':
+            item: DIAMOND_AXE
+            name: §byoutube stuff
+            lore:
+            - ' '
+            - §bslot 2
+            size: 1
+          '3':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 3
+            size: 1
+          '4':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 4
+            size: 1
+          '5':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 5
+            size: 1
+          '6':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 6
+            size: 1
+          '7':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 7
+            size: 1
+          '8':
+            item: COOKED_PORKCHOP
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 8
+            size: 16
+          '9':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 9
+            size: 1
+          '10':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 10
+            size: 1
+          '11':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 11
+            size: 1
+          '12':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 12
+            size: 1
+          '13':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 13
+            size: 1
+          '14':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 14
+            size: 1
+          '15':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 15
+            size: 1
+          '16':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 16
+            size: 1
+          '17':
+            item: ARROW
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 17
+            size: 32
+          '18':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 18
+            size: 1
+          '19':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 19
+            size: 1
+          '20':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 20
+            size: 1
+          '21':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 21
+            size: 1
+          '22':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 22
+            size: 1
+          '23':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 23
+            size: 1
+          '24':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 24
+            size: 1
+          '25':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 25
+            size: 1
+          '26':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 26
+            size: 1
+          '27':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 27
+            size: 1
+          '28':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 28
+            size: 1
+          '29':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 29
+            size: 1
+          '30':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 30
+            size: 1
+          '31':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 31
+            size: 1
+          '32':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 32
+            size: 1
+          '33':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 33
+            size: 1
+          '34':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 34
+            size: 1
+          '35':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 35
+            size: 1
+          '41':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 41
+            size: 1
+          '42':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 42
+            size: 1
+          '43':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 43
+            size: 1
+          '44':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 44
+            size: 1
+      débutant:
+        time: 604800
+        len: 45
+        item:
+          '39':
+            item: IRON_HELMET
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 39
+            size: 1
+          '38':
+            item: IRON_CHESTPLATE
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 38
+            size: 1
+          '37':
+            item: IRON_LEGGINGS
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 37
+            size: 1
+          '36':
+            item: IRON_BOOTS
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 36
+            size: 1
+          '40':
+            item: SHIELD
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 40
+            size: 1
+          '0':
+            item: BOW
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 0
+            size: 1
+          '1':
+            item: IRON_SWORD
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 1
+            size: 1
+          '2':
+            item: IRON_AXE
+            name: §bbeginner stuff
+            lore:
+            - ' '
+            - §bslot 2
+            size: 1
+          '3':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 3
+            size: 1
+          '4':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 4
+            size: 1
+          '5':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 5
+            size: 1
+          '6':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 6
+            size: 1
+          '7':
+            item: GREEN_STAINED_GLASS_PANE
+            name: '§bHotbar '
+            lore:
+            - Hotbar §4placement
+            - §bslot 7
+            size: 1
+          '8':
+            item: BREAD
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 8
+            size: 32
+          '9':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 9
+            size: 1
+          '10':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 10
+            size: 1
+          '11':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 11
+            size: 1
+          '12':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 12
+            size: 1
+          '13':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 13
+            size: 1
+          '14':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 14
+            size: 1
+          '15':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 15
+            size: 1
+          '16':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 16
+            size: 1
+          '17':
+            item: ARROW
+            name: ' '
+            lore:
+            - ' '
+            - §bslot 17
+            size: 16
+          '18':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 18
+            size: 1
+          '19':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 19
+            size: 1
+          '20':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 20
+            size: 1
+          '21':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 21
+            size: 1
+          '22':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 22
+            size: 1
+          '23':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 23
+            size: 1
+          '24':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 24
+            size: 1
+          '25':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 25
+            size: 1
+          '26':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 26
+            size: 1
+          '27':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 27
+            size: 1
+          '28':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 28
+            size: 1
+          '29':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 29
+            size: 1
+          '30':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 30
+            size: 1
+          '31':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 31
+            size: 1
+          '32':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 32
+            size: 1
+          '33':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 33
+            size: 1
+          '34':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 34
+            size: 1
+          '35':
+            item: GRAY_STAINED_GLASS_PANE
+            name: '§bInventory '
+            lore:
+            - Inventory §4placement
+            - §bslot 35
+            size: 1
+          '41':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 41
+            size: 1
+          '42':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 42
+            size: 1
+          '43':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 43
+            size: 1
+          '44':
+            item: BARRIER
+            name: §bOut inventory
+            lore:
+            - Out inventory §4placement
+            - §bslot 44
+            size: 1
+  dates:
+    vip:
+      eureur7: 1663174325
+      kyfien: 1662569837
+      Hydrolien: 1662570506
+      PetitMulot: 1662648380
+    vipPlus:
+      eureur7: 1663174325
+      kyfien: 1662569837
+      Hydrolien: 1662570531
+      PetitMulot: 1662648380
+    weekly:
+      vipW:
+        eureur7: 0
+        TCCESAR76: -7
+        RohanJoshua: -7
+        LeGrosPogo2485: -7
+      vipPW:
+        TCCESAR76: -7
+        RohanJoshua: -7
+        LeGrosPogo2485: -7
+      youtubeW:
+        TCCESAR76: -7
+        RohanJoshua: -7
+        LeGrosPogo2485: -7
+      beginnerW:
+        TCCESAR76: -7
+        RohanJoshua: -7
+        LeGrosPogo2485: -7
+    youtube:
+      eureur7: 1663174450
+      kyfien: 1662569837
+      Hydrolien: 1662570778
+      PetitMulot: 1662648380
+    débutant:
+      eureur7: 1663174452
+      kyfien: 1663174654
+      Hydrolien: 1663174781
+      ZeeniixYT: 1663175111
+      PetitMulot: 1663253184
+    daily:
+      vip:
+        TCCESAR76: 0
+        RohanJoshua: 0
+        LeGrosPogo2485: 0
+      vipP:
+        TCCESAR76: 0
+        RohanJoshua: 0
+        LeGrosPogo2485: 0
+      youtube:
+        TCCESAR76: 0
+        RohanJoshua: 0
+        LeGrosPogo2485: 0
+      beginner:
+        TCCESAR76: 0
+        RohanJoshua: 0
+        LeGrosPogo2485: 0
+    test:
+      eureur7: 1663261719
+    inv:
+      eureur7: 1663261786
+    kit:
+      eureur7: 1663261789
