@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Selection>
+  <TilesList>
+    <string>N89E000</string>
+    <string>N89E090</string>
+    <string>N89W090</string>
+    <string>N89W180</string>
+    <string>S01E000</string>
+    <string>S01E090</string>
+    <string>S01W090</string>
+    <string>S01W180</string>
+    <string>0x1024</string>
+    <string>0x-1536</string>
+    <string>1024x1024</string>
+    <string>-1024x1024</string>
+    <string>1024x-1536</string>
+    <string>-1024x-1536</string>
+    <string>1536x1024</string>
+    <string>-1536x1024</string>
+    <string>1536x-1536</string>
+    <string>-1536x-1536</string>
+    <string>2048x0</string>
+    <string>2048x1024</string>
+    <string>2048x-1024</string>
+    <string>-2048x1024</string>
+    <string>2048x-1536</string>
+    <string>-2048x-1536</string>
+    <string>2048x512</string>
+    <string>2048x-512</string>
+    <string>-2560x0</string>
+    <string>-2560x1024</string>
+    <string>-2560x-1024</string>
+    <string>-2560x-1536</string>
+    <string>-2560x512</string>
+    <string>-2560x-512</string>
+    <string>512x1024</string>
+    <string>-512x1024</string>
+    <string>512x-1536</string>
+    <string>-512x-1536</string>
+  </TilesList>
+  <SpawnTile>N89E000</SpawnTile>
+  <VoidBarrier>512</VoidBarrier>
+  <VoidTiles>28</VoidTiles>
+</Selection>
