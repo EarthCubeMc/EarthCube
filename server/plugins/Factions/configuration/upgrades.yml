@@ -51,7 +51,7 @@ fupgrades:
           - '&4&l* &cLevel 4: &f1000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 31
+        Slot: 22
     Fall-Damage:
       Cost:
         level-1: -1
@@ -130,7 +130,7 @@ fupgrades:
           - '&4&l* &cLevel 4: &f50000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 12
+        Slot: 21
     Power:
       Max-Level: 3
       Power-Boost:
@@ -161,7 +161,7 @@ fupgrades:
           - '&4&l* &cLevel 3: &f300'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 22
+        Slot: 14
     Redstone:
       Max-Level: 1
       Cost:
@@ -216,7 +216,7 @@ fupgrades:
           - '&4&l* &cLevel 5: &f20000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 30
+        Slot: 32
     DamageReduct:
       Max-Level: 3
       DamageReductPercent:
@@ -336,7 +336,7 @@ fupgrades:
           - '&4&l* &cLevel 3: &f300'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 24
+        Slot: 31
     Chest:
       Max-Level: 5
       Chest-Size:
@@ -375,7 +375,7 @@ fupgrades:
           - '&4&l* &cLevel 5: &f500'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 20
+        Slot: 30
     Members:
       Max-Level: 3
       Members-Limit:
@@ -405,7 +405,7 @@ fupgrades:
           - '&4&l* &cLevel 3: &f300'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 40
+        Slot: 12
     Armor:
       Max-Level: 3
       Armor-HP-Drop:
