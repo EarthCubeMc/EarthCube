@@ -23,10 +23,12 @@ fupgrades:
         level-1: 5
         level-2: 10
         level-3: 15
+        level-4: 20
       Cost:
-        level-1: 128
-        level-2: 256
-        level-3: 512
+        level-1: 120
+        level-2: 250
+        level-3: 500
+        level-4: 1000
       DisplayItem:
         Name: '&c&lGrowth Speed'
         Type: WHEAT #MUST BE PLAYER_HEAD FOR TEXTURE TO WORK!
@@ -40,11 +42,13 @@ fupgrades:
           - '&4&l* &cLevel 1: &f5% Chance'
           - '&4&l* &cLevel 2: &f10% Chance'
           - '&4&l* &cLevel 3: &f15% Chance'
+          - '&4&l* &cLevel 4: &f20% Chance'
           - '&f'
           - '&c&lCosts'
           - '&4&l* &cLevel 1: &f120'
           - '&4&l* &cLevel 2: &f250'
           - '&4&l* &cLevel 3: &f500'
+          - '&4&l* &cLevel 4: &f1000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
         Slot: 31
@@ -92,17 +96,19 @@ fupgrades:
           - '&4&l* &cLevel 3: &f60'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 12
+        Slot: -1
     EXP:
-      Max-Level: 3
+      Max-Level: 4
       EXP-Boost:
         level-1: 1.5
         level-2: 2.0
-        level-3: 2.5
+        level-3: 3.0
+        level-4: 5.0
       Cost:
-        level-1: 2000000
-        level-2: 4000000
-        level-3: 6000000
+        level-1: 400
+        level-2: 1000
+        level-3: 5000
+        level-4: 50000
       DisplayItem:
         Name: '&c&lEXP Drop Rate'
         Type: EXP_BOTTLE #MUST BE PLAYER_HEAD FOR TEXTURE TO WORK!
@@ -113,16 +119,18 @@ fupgrades:
           - ''
           - '&c&lMultipliers'
           - '&4&l* &cLevel 1: &f1.5'
-          - '&4&l* &cLevel 2: &f2.0'
-          - '&4&l* &cLevel 3: &f2.5'
+          - '&4&l* &cLevel 2: &f2'
+          - '&4&l* &cLevel 3: &f3'
+          - '&4&l* &cLevel 4: &f5'
           - '&f'
           - '&c&lCosts'
-          - '&4&l* &cLevel 1: &f2,000,000'
-          - '&4&l* &cLevel 2: &f4,000,000'
-          - '&4&l* &cLevel 3: &f6,000,000'
+          - '&4&l* &cLevel 1: &f400'
+          - '&4&l* &cLevel 2: &f1000'
+          - '&4&l* &cLevel 3: &f5000'
+          - '&4&l* &cLevel 4: &f50000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: -1
+        Slot: 12
     Power:
       Max-Level: 3
       Power-Boost:
@@ -171,16 +179,20 @@ fupgrades:
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
         Slot: 23
     Spawners:
-      Max-Level: 3
+      Max-Level: 5
       Spawner-Boost:
         # This is a Percentage so .10 means 10% lowered spawner delay!
         level-1: 0.10
         level-2: 0.20
         level-3: 0.30
+        level-4: 0.40
+        level-5: 0.50
       Cost:
         level-1: 200
         level-2: 1000
-        level-3: 10000
+        level-3: 5000
+        level-4: 10000
+        level-5: 20000
       DisplayItem:
         Name: '&c&lSpawn Rate'
         Type: MOB_SPAWNER #MUST BE PLAYER_HEAD FOR TEXTURE TO WORK!
@@ -193,11 +205,15 @@ fupgrades:
           - '&4&l* &cLevel 1: &f0.10%'
           - '&4&l* &cLevel 2: &f0.20%'
           - '&4&l* &cLevel 3: &f0.30%'
+          - '&4&l* &cLevel 4: &f0.40%'
+          - '&4&l* &cLevel 5: &f0.50%'
           - '&f'
           - '&c&lCosts'
           - '&4&l* &cLevel 1: &f200'
           - '&4&l* &cLevel 2: &f1000'
-          - '&4&l* &cLevel 3: &f10000'
+          - '&4&l* &cLevel 3: &f5000'
+          - '&4&l* &cLevel 4: &f10000'
+          - '&4&l* &cLevel 5: &f20000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
         Slot: 30
@@ -290,7 +306,7 @@ fupgrades:
           - '&4&l* &cLevel 3: &f64*4'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 21
+        Slot: -1
     Warps:
       Max-Level: 3
       warp-limit:
@@ -379,9 +395,9 @@ fupgrades:
           - '&7&oYour current level is &e&l&o{level}'
           - ''
           - '&c&lFaction Member Limit'
-          - '&4&l* &cLevel 1: &f35'
-          - '&4&l* &cLevel 2: &f40'
-          - '&4&l* &cLevel 3: &f45'
+          - '&4&l* &cLevel 1: &f+5'
+          - '&4&l* &cLevel 2: &f+10'
+          - '&4&l* &cLevel 3: &f+15'
           - '&f'
           - '&c&lCosts'
           - '&4&l* &cLevel 1: &f100'
