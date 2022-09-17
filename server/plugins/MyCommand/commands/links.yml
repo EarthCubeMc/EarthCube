@@ -1,0 +1,45 @@
+website:
+  command: /website
+  type: TEXT
+  text:
+  - 'https://earthcube.fun'
+  register: true
+web:
+  command: /web
+  type: RUN_COMMAND
+  runcmd:
+  - '/website'
+  register: true
+site:
+  command: /site
+  type: RUN_COMMAND
+  runcmd:
+  - '/website'
+  register: true
+map:
+  command: /map
+  type: TEXT
+  text:
+  - 'https://earthcube.fun/map'
+  register: true
+wiki:
+  command: /wiki
+  type: TEXT
+  text:
+  - 'https://earthcube.fun/wiki'
+  register: true
+shop:
+  command: /shop
+  type: RAW_TEXT
+  text:
+  - '&aHello &b$player! &aHover your mouse over me!; &dMAGIC'
+  - '&0[&d*&0]&e Click me; &eClick Here for suggest the command &d/mycmd;/mycmd'
+  - '$OPEN_URL$&0[&e*&0]$random_color Open Google.com; &eClick for open;https://earthcube.fun/shop'
+  register: true
+
+kit:
+  command: /kit
+  type: RUN_COMMAND
+  runcmd:
+  - '/kitopeninv kit'
+  register: true
