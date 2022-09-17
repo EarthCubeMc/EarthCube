@@ -51,7 +51,7 @@ fupgrades:
           - '&4&l* &cLevel 4: &f1000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 22
+        Slot: 32
     Fall-Damage:
       Cost:
         level-1: -1
@@ -216,7 +216,7 @@ fupgrades:
           - '&4&l* &cLevel 5: &f20000'
           - ''
           - '&7&o(( Tip: &f&oleft-click&7&o to &c&oupgrade&7&o ))'
-        Slot: 32
+        Slot: 22
     DamageReduct:
       Max-Level: 3
       DamageReductPercent:
