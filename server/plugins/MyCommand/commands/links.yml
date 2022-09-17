@@ -1,41 +1,59 @@
+help:
+  command: /help
+  type: TEXT
+  text:
+  - '/site'
+  - '/map'
+  - '/shop'
+  - '/kit'
+  - 'Find more with /wiki'
+  register: true
+  permission-required: false
 website:
   command: /website
   type: TEXT
   text:
   - 'https://earthcube.fun'
   register: true
+  permission-required: false
 web:
   command: /web
   type: RUN_COMMAND
   runcmd:
   - '/website'
   register: true
+  permission-required: false
 site:
   command: /site
   type: RUN_COMMAND
   runcmd:
   - '/website'
   register: true
+  permission-required: false
 map:
   command: /map
   type: TEXT
   text:
   - 'https://earthcube.fun/map'
   register: true
+  permission-required: false
 wiki:
   command: /wiki
   type: TEXT
   text:
   - 'https://earthcube.fun/wiki'
   register: true
+  permission-required: false
 shop:
   command: /shop
   type: RAW_TEXT
   text:
-  - '&aHello &b$player! &aHover your mouse over me!; &dMAGIC'
-  - '&0[&d*&0]&e Click me; &eClick Here for suggest the command &d/mycmd;/mycmd'
-  - '$OPEN_URL$&0[&e*&0]$random_color Open Google.com; &eClick for open;https://earthcube.fun/shop'
+  - 'https://earthcube.fun/shop'
+  # - '&aHello &b$player! &aHover your mouse over me!; &dMAGIC'
+  # - '&0[&d*&0]&e Click me; &eClick Here for suggest the command &d/mycmd;/mycmd'
+  # - '$OPEN_URL$&0[&e*&0]$random_color Open Google.com; &eClick for open;https://earthcube.fun/shop'
   register: true
+  permission-required: false
 
 kit:
   command: /kit
@@ -43,3 +61,4 @@ kit:
   runcmd:
   - '/kitopeninv kit'
   register: true
+  permission-required: false
