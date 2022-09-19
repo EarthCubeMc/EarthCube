@@ -194,7 +194,7 @@ warmups:
   # Delay for /f home
   f-home: 5
   # Delay for /f warp
-  f-warp: 20
+  f-warp: 10
   # Delay for /f fly
   f-fly: 20
   #Delay for /f checkpoint's teleport
