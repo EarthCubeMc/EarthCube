@@ -28,3 +28,7 @@ groups:
     prefix: '&3premium+&r - '
   premium:
     prefix: '&4premium&r - '
+  youtuber:
+    prefix: '&eyoutuber&r - '
+  administrateur:
+    prefix: '&1administrateur&r - '

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 87.95.125.163
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664043030884
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664047816566
+  login: 1664046178151
+money: '0'
+last-account-name: Skylark64
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1063.631719329706
+  y: 31.0
+  z: -969.3000000119209
+  yaw: -6.225238800048828
+  pitch: -24.299657821655273
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 522.700578674913
+  y: 68.0
+  z: -87.63363316875275
+  yaw: 131.51141357421875
+  pitch: 83.39993286132812

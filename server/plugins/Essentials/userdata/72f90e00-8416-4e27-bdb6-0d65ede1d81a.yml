@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 77.204.146.159
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663699438545
+  login: 1663698433244
+money: '0'
+last-account-name: TCCESAR76
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: -606.1177612122021
+  y: 20.0
+  z: -40.076155549815645
+  yaw: -75.7564697265625
+  pitch: 6.1443095207214355

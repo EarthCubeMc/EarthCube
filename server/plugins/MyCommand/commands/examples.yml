@@ -42,7 +42,7 @@ simple_dice:
   permission-node: mycommand.cmd.dice
   permission-error: "&a$player! , &2You can't use this command!"
 tab_completer:
-  command: /greets
+  command: /greets 
   type: RUN_COMMAND
   runcmd:
   - '$broadcasttext$&0[&e$player&0]&r $multiargs'
@@ -192,11 +192,11 @@ itemcost_example:
   text:
   - '$random_colorYou have spent 5 Cobblestone for see this message.'
   itemcost: 'COBBLESTONE:5'
-
+ 
 # COMMAND TYPE : SCOREBOARD
 # The Scoreboard will get removed after DelayTimer(sec). If 0 don't remove
 # Use $marquee$ as a prefix of the scoreboard name to scroll the text.
-# Use scoreboard_refresh_ticks, to determinate how frequent the plugin have to update the scoreboard.
+# Use scoreboard_refresh_ticks, to determinate how frequent the plugin have to update the scoreboard.  
 
 scoreboard_example:
   command: /sbexample
@@ -210,13 +210,13 @@ scoreboard_example:
   - "0;&6Food: &e$food"
   scoreboard_refresh_ticks: 5
   delaytimer: 10
-
+  
 # Teleport to another server inside the same network using the following command type (BungeeCord required)
 bungeecord_example:
   command: /gotohub
   type: BUNGEE_TP
   server_name: hub
-
+  
 # Limit the command execution to only certain worlds :
 allowed_worlds_example:
   command: /onlynether
@@ -232,7 +232,7 @@ per_world_commands:
   - "$world=%world%/me This command will be performed only if you are in the world"
   - "$world=%world_nether%/me And this only if you are in the nether"
   permission-required: false
-
+  
 # Let run the same command to all the players in the server
 executefor_example:
   command: /executeforall
@@ -241,7 +241,7 @@ executefor_example:
   runcmd:
   - "/tp $player 0 64 0"
   permission-required: true
-
+  
 # Examples using %PlayerOptions% feature
 ouch:
   command: /ouch
@@ -258,7 +258,7 @@ heal_me:
   - '%PlayerOptions%setFoodLevel: 20'
   - '%PlayerOptions%sendMessage: &aHealed!'
   permission-required: true
-
+  
 # WorldGuard support
 world_guard_example:
   command: /checkregion
@@ -267,7 +267,7 @@ world_guard_example:
   - 'You are in $wgregionname region!'
   allowed_wg_regions:
   - 'region_name_here'
-
+  
 # Cooldown for custom commands.
 custom_cmd_cooldown:
   command: /cooldown-example
@@ -281,7 +281,7 @@ custom_cmd_warmup:
   text:
   - '&aYou have waited 5 second for see this command performed'
   warmup: 5
-
+  
 # Retrieve data from the web
 call_url:
   command: /call-url
@@ -290,7 +290,7 @@ call_url:
   get_output : true
   show_output_ingame : true
   save_output_as : httpResponse
-
+  
 # Script example
 script_example_420:
   command: /example420
@@ -302,7 +302,7 @@ script_example_420:
   - $text$&aBLAZE IT
   - $Script$%else%
   - $text$Password not correct
-
+  
 # BossBar example
 bar_text:
   command: /bar_example
@@ -314,7 +314,7 @@ bar_text:
   bar_style: SEGMENTED_20
   bar_flag: DARKEN_SKY
   bar_color: PINK
-
+  
 # Clickable and hoverable text.
 rawmessage_example:
   command: /raw-example
@@ -324,7 +324,7 @@ rawmessage_example:
   - '&0[&d*&0]&e Click me; &eClick Here for suggest the command &d/mycmd;/mycmd'
   - '$RUN_COMMAND$&0[&e*&0]&c Set the time to day; &eClick for Execute;/time set day'
   - '$OPEN_URL$&0[&e*&0]$random_color Open Google.com; &eClick for open;http://www.google.com'
-
+  
 # A mix of the feature above
 lottery_example:
   command: /lottery_example
@@ -355,7 +355,7 @@ lottery_example:
   - '$Script$%PlayerData%amount_lotteryprize=$randomnumber%3%'
   - '$delay$'
   - '$text$&b+------------------------------------'
-  - '$text$&b| &6Congratulation! You won : &e $PlayerData%amount_lotteryprize% $PlayerData%lotteryprize%! '
+  - '$text$&b| &6Congratulation! You won : &e $PlayerData%amount_lotteryprize% $PlayerData%lotteryprize%! ' 
   - '$text$&b+------------------------------------'
   - '%PlayerOptions%addItem: $PlayerData%lotteryprize%:$PlayerData%amount_lotteryprize%'
   delaytimer: 1

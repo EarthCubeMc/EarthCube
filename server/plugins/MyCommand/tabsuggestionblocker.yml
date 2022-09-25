@@ -18,6 +18,7 @@ COMMAND_LIST:
   - /web
   - /help
   - /rules
+  - /kit
   vips:
   - /fly
   - /warp

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 109.12.158.182
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664012466517
+  login: 1664012198388
+money: '0'
+last-account-name: 4elv
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 137.55996682811062
+  y: 64.0
+  z: 45.26347543053163
+  yaw: -29.16192626953125
+  pitch: 16.724002838134766

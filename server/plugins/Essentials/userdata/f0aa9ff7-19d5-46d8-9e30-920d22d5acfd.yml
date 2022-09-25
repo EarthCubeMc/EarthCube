@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 85.76.10.197
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664070514134
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664070819908
+  login: 1664064307354
+money: '0'
+last-account-name: zonzagt
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1068.704142517617
+  y: 63.0
+  z: -961.1997355567996
+  yaw: -176.45245361328125
+  pitch: 25.750349044799805
+lastlocation:
+  world: 48ef9ce9-a5e7-4066-a176-66fdea41335f
+  world-name: World_nether
+  x: 142.4214047066313
+  y: 74.0
+  z: -135.5591869367337
+  yaw: -93.28742980957031
+  pitch: 21.707584381103516

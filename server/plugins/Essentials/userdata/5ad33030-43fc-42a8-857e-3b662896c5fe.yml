@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 90.22.154.125
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664048088354
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664057181781
+  login: 1664054872259
+money: '782.88888888852'
+last-account-name: kyfien
+lastlocation:
+  world: 48ef9ce9-a5e7-4066-a176-66fdea41335f
+  world-name: World_nether
+  x: 2041.0991454784719
+  y: 89.37584723215129
+  z: 1147.9775174504982
+  yaw: -178.3069305419922
+  pitch: 16.79374885559082
+logoutlocation:
+  world: 48ef9ce9-a5e7-4066-a176-66fdea41335f
+  world-name: World_nether
+  x: 2043.923978513652
+  y: 89.81928091595346
+  z: 1098.2783095875307
+  yaw: -69.52899169921875
+  pitch: 31.771371841430664

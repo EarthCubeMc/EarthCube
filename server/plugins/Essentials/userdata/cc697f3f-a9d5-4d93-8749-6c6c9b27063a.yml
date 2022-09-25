@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 86.246.13.202
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664045264464
+  login: 1664045065990
+money: '0'
+last-account-name: LLHumain
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 184.5
+  y: 68.0
+  z: -60.5
+  yaw: 7.200003147125244
+  pitch: 42.450035095214844

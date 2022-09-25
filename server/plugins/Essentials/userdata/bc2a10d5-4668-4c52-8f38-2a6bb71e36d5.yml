@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 78.228.138.185
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663494141005
+  login: 1663493520973
+money: '0'
+last-account-name: virissel123
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 185.80680891125505
+  y: 68.0
+  z: -58.16928927233402
+  yaw: -109.04995727539062
+  pitch: 19.800003051757812
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 197.64751361847942
+  y: 69.0
+  z: -64.17312726316315
+  yaw: 19.95125961303711
+  pitch: 35.24984359741211

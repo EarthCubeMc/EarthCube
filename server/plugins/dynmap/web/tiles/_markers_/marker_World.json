@@ -1,0 +1,36 @@
+{"sets": {"factions_markerset": {"hide": false,"circles": {}
+,"areas": {"factions_World__7__0": {"fillcolor": "#00FF00","ytop": 64.00,"color": "#00FF00","markup": false,"x": [1024.00,1120.00,1120.00,1024.00]
+,"weight": 3,"z": [-1024.00,-1024.00,-928.00,-928.00]
+,"ybottom": 64.00,"label": "neekeri","opacity": 0.80,"fillopacity": 0.35,"desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">neekeri<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> VanhaRakki<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 4<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 6<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 4.00<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_World__8__0": {"fillcolor": "#00FF00","ytop": 64.00,"color": "#00FF00","markup": false,"x": [480.00,496.00,496.00,480.00]
+,"weight": 3,"z": [-320.00,-320.00,-304.00,-304.00]
+,"ybottom": 64.00,"label": "Hummel","opacity": 0.80,"fillopacity": 0.35,"desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">Hummel<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> hansopa<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 18.00<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_World__6__0": {"fillcolor": "#00FF00","ytop": 64.00,"color": "#00FF00","markup": false,"x": [1088.00,1104.00,1104.00,1088.00]
+,"weight": 3,"z": [-768.00,-768.00,-736.00,-736.00]
+,"ybottom": 64.00,"label": "URSS","opacity": 0.80,"fillopacity": 0.35,"desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">URSS<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> ChaineSinge617<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 7.00<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_World__3__0": {"fillcolor": "#00FF00","ytop": 64.00,"color": "#00FF00","markup": false,"x": [-32.00,-16.00,-16.00,32.00,32.00,64.00,64.00,48.00,48.00,-16.00,-16.00,-32.00]
+,"weight": 3,"z": [-560.00,-560.00,-576.00,-576.00,-560.00,-560.00,-496.00,-496.00,-480.00,-480.00,-496.00,-496.00]
+,"ybottom": 64.00,"label": "KavalSkipo","opacity": 0.80,"fillopacity": 0.35,"desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">KavalSkipo<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">1er \u00E9p sorti !<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> Hydrolien<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 2<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 6<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 45.48<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_World__2__0": {"fillcolor": "#00FF00","ytop": 64.00,"color": "#00FF00","markup": false,"x": [1600.00,1680.00,1680.00,1600.00]
+,"weight": 3,"z": [368.00,368.00,448.00,448.00]
+,"ybottom": 64.00,"label": "Endoloris","opacity": 0.80,"fillopacity": 0.35,"desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">Endoloris<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Avada Kedavra !<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> ZeeniixYT<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 2<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 4<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 53.00<br \/>\n<br \/>\n<\/div><\/div>"}
+}
+,"label": "Factions","markers": {}
+,"lines": {}
+,"layerprio": 2}
+,"worldborder.markerset": {"hide": false,"circles": {}
+,"areas": {"worldborder_World": {"fillcolor": "#000000","ytop": 64.00,"color": "#FF0000","markup": false,"x": [-2047.00,2047.00]
+,"weight": 3,"z": [-1023.00,1023.00]
+,"ybottom": 64.00,"label": "The border of the world.","opacity": 1.00,"fillopacity": 0.00}
+}
+,"label": "WorldBorder","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_World": {"markup": false,"x": 184.00,"icon": "world","y": 69.00,"dim": "16x16","z": -67.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1664060950202}

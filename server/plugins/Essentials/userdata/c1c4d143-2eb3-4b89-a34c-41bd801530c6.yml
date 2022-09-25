@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 90.103.181.247
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664034582209
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664035469450
+  login: 1664034542887
+money: '210.0'
+last-account-name: VegaMissyl
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1642.0667719640103
+  y: 78.37265419525538
+  z: 407.71404700086765
+  yaw: 164.25804138183594
+  pitch: 30.140594482421875
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 490.7937070610038
+  y: 77.36451666186827
+  z: -313.3742165010483
+  yaw: 154.94122314453125
+  pitch: 17.949419021606445

@@ -1,0 +1,29 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2022-09-24 11:39:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2022-09-24 11:39:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-09-24 11:39:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2022-09-24 11:39:26 +0200",
+      "minecraft:river": "2022-09-24 11:40:37 +0200",
+      "minecraft:savanna": "2022-09-24 11:36:39 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

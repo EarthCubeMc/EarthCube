@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 173.176.25.152
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664078831884
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664080021006
+  login: 1664075180690
+money: '433.44444444288'
+last-account-name: Perreault_
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1.7791594333959344
+  y: 63.0
+  z: -544.093680001297
+  yaw: -132.3734130859375
+  pitch: 24.01481819152832
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 5.461387589378491
+  y: 307.0
+  z: -537.2830898614119
+  yaw: 163.9957275390625
+  pitch: 21.482677459716797

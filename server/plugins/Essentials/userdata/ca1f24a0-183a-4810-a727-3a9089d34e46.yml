@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 85.76.109.83
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664011936592
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664012867864
+  login: 1664011433422
+money: '0'
+last-account-name: eetusedo_55
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1060.699999988079
+  y: 2.0
+  z: -982.3000000119209
+  yaw: 106.21536254882812
+  pitch: 19.049240112304688
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1074.966446961307
+  y: 62.0
+  z: -961.6181262840631
+  yaw: 174.6005859375
+  pitch: 47.69932174682617

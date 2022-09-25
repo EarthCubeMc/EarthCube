@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 46.8.174.0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664014115991
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664016929127
+  login: 1664012242898
+money: '0'
+last-account-name: BretzelBerlinois
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 50.41019415428598
+  y: 64.0
+  z: -501.5609310304562
+  yaw: 95.5281982421875
+  pitch: 6.496983051300049
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1103.0290731721798
+  y: 28.0
+  z: -502.2730817858361
+  yaw: 76.7052001953125
+  pitch: 40.80607604980469

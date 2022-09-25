@@ -1,0 +1,22 @@
+{"sets": {"factions_markerset": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Factions","markers": {"factions_home_3": {"markup": false,"x": 10.92,"icon": "greenflag","y": 306.00,"dim": "16x16","z": -512.93,"label": "KavalSkipo","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">KavalSkipo<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">1er \u00E9p sorti !<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> Hydrolien<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 2<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 6<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 45.48<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_home_2": {"markup": false,"x": 1639.44,"icon": "greenflag","y": 63.00,"dim": "16x16","z": 410.37,"label": "Endoloris","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">Endoloris<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Avada Kedavra !<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> ZeeniixYT<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 2<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 4<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 53.00<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_home_7": {"markup": false,"x": 1069.46,"icon": "greenflag","y": 63.00,"dim": "16x16","z": -963.11,"label": "neekeri","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">neekeri<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> VanhaRakki<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 1<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 4<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 6<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 4.00<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_home_6": {"markup": false,"x": 1097.86,"icon": "greenflag","y": 65.00,"dim": "16x16","z": -742.78,"label": "URSS","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">URSS<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> ChaineSinge617<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 7.00<br \/>\n<br \/>\n<\/div><\/div>"}
+,"factions_home_8": {"markup": false,"x": 487.30,"icon": "greenflag","y": 59.00,"dim": "16x16","z": -308.57,"label": "Hummel","desc": "<div><div>\n<span style=\"font-weight:bold;font-size:150%\">Hummel<\/span><br \/>\n<span style=\"font-style:italic;font-size:110%\">Default faction description :(<\/span><br \/><br \/>\n<span style=\"font-weight:bold\">Leader:<\/span> hansopa<br \/>\n<span style=\"font-weight:bold\">Admins:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Moderators:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">Members:<\/span> 0<br \/>\n<span style=\"font-weight:bold\">TOTAL:<\/span> 1<br \/>\n\n<span style=\"font-weight:bold\">Bank:<\/span> 18.00<br \/>\n<br \/>\n<\/div><\/div>"}
+}
+,"lines": {}
+,"layerprio": 2}
+,"worldborder.markerset": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "WorldBorder","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1664081890884}

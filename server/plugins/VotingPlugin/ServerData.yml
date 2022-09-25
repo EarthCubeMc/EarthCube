@@ -1,27 +1,13 @@
-LastUpdated: 1663070159560
-IntColumns:
-- VotePartyVotes
-- MilestoneCount
-- MonthTotal
-- AllTimeTotal
-- DailyTotal
-- WeeklyTotal
-- Points
-- DayVoteStreak
-- BestDayVoteStreak
-- WeekVoteStreak
-- BestWeekVoteStreak
-- MonthVoteStreak
-- HighestDailyTotal
-- HighestMonthlyTotal
-- HighestWeeklyTotal
-- LastMonthTotal
-- BestMonthVoteStreak
+LastUpdated: 1664078936946
 VotingPlugin:
   Version: '3579-Spigot-e53686f-dd0a218 (MC: 1.19.2)'
+  ServiceSites:
+  - Serveur Minecraft Vote
+  - Top-Serveurs
+  - Serveurs Minecraft
+  - ServeurPrive
 PluginVersions:
   VotingPlugin: 6.9.4
 Month: SEPTEMBER
-PrevWeek: 38
-PrevDay: 13
-IgnoreTime: false
+PrevWeek: 40
+PrevDay: 25

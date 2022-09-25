@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 85.76.10.197
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664064544434
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664065325168
+  login: 1664060961989
+money: '98.0'
+last-account-name: VanhaRakki
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1065.300000011921
+  y: 63.0
+  z: -968.6999999880791
+  yaw: -68.8516845703125
+  pitch: 20.536514282226562
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1144.7780141858505
+  y: 103.5
+  z: -982.6234846555294
+  yaw: 178.67616271972656
+  pitch: -6.256453514099121

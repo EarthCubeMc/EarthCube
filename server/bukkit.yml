@@ -28,12 +28,12 @@ spawn-limits:
   monsters: 40
   animals: 10
   water-animals: 5
-  ambient: 2
+  ambient: 0
   water-ambient: 10
   water-underground-creature: 3
   axolotls: 3
 chunk-gc:
-  period-in-ticks: 600
+  period-in-ticks: 300
   load-threshold: 0
 ticks-per:
   animal-spawns: 200
@@ -43,5 +43,5 @@ ticks-per:
   water-ambient-spawns: 4
   water-underground-creature-spawns: 4
   axolotl-spawns: 4
-  ambient-spawns: 4
+  ambient-spawns: 200
 aliases: now-in-commands.yml

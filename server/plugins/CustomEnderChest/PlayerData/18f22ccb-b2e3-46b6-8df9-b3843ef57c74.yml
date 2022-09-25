@@ -1,0 +1,8 @@
+PlayerLastName: Hydrolien
+EnderChestSize: 54
+EnderChestInventory:
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLED_DEEPSLATE
+    amount: 64

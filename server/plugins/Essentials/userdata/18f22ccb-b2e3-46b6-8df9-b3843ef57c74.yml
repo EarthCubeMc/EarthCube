@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 77.140.83.103
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664033419697
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664041105505
+  login: 1664037479946
+money: '110.06666666049'
+last-account-name: Hydrolien
+lastlocation:
+  world: 48ef9ce9-a5e7-4066-a176-66fdea41335f
+  world-name: World_nether
+  x: 1.06849623705247
+  y: 39.0
+  z: -63.93915103951142
+  yaw: -143.04934692382812
+  pitch: 45.24767303466797
+logoutlocation:
+  world: 48ef9ce9-a5e7-4066-a176-66fdea41335f
+  world-name: World_nether
+  x: -8225.037475489617
+  y: 55.0
+  z: -2259.287658208409
+  yaw: -26.541748046875
+  pitch: 25.904434204101562

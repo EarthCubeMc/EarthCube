@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.175.104.83
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664064013784
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664064182165
+  login: 1664060961989
+money: '0.55555555554'
+last-account-name: mush__room
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1474.9257797787236
+  y: 64.0
+  z: -580.9446514528983
+  yaw: 134.23822021484375
+  pitch: 18.450538635253906
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1069.2802521247152
+  y: 63.0
+  z: -964.5125660760634
+  yaw: 45.494224548339844
+  pitch: 24.61101531982422

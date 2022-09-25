@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 89.143.171.248
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1663436952882
+  login: 1663436864569
+money: '0'
+last-account-name: Fish_In_A_Suit
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 165.27917150870675
+  y: 65.0
+  z: -163.7575296454133
+  yaw: -23.495174407958984
+  pitch: 50.099971771240234

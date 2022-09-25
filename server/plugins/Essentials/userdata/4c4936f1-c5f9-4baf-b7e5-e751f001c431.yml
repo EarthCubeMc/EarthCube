@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.169.109.181
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1664066904734
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1664067157169
+  login: 1664063453249
+money: '507.11111111111'
+last-account-name: TibZit
+lastlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1632.9041330932482
+  y: 0.0
+  z: 394.446148644239
+  yaw: 66.14108276367188
+  pitch: -18.877593994140625
+logoutlocation:
+  world: 1837b158-6956-4179-bd3c-159b9e32b34b
+  world-name: World
+  x: 1639.9493591770754
+  y: 70.5
+  z: 405.5816094083917
+  yaw: 178.05516052246094
+  pitch: 20.978116989135742
