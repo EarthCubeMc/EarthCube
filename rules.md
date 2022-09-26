@@ -4,5 +4,5 @@ Règles en jeu :
 - Les boucles infinis en redstone sont interdite.
 - Les insultes sont interdit en texuel comme en vocal
 - Pas de haine homophobe, LGBT ou même raciste dans le chat comme en voc
-- Interdit de cheat sous peine d'un ban permanent. Est concidéré comme cheat...
+- Interdit de cheat sous peine d'un ban permanent. Est concidéré comme cheat TODO...
 - Durant les évents pas de mauvais joueur ou autre, sinon les admin vous vire de l'évent, ce qui serais dommage vue ce que vous pouvez gagner.
